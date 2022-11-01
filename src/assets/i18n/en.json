@@ -1,0 +1,21 @@
+{
+    "en_button": "English",
+    
+    "header":{
+        "webtitle": "Gonzalo Medina | Web Developer",
+        "title": "Welcome to my Personal Profile",
+        "subtitle": "This is who I'm"
+
+    },
+
+    "biography": "I worked a lot and study more",
+    
+    "briefcase":{
+        "description": "Take a look at my projects"
+    }, 
+    
+    "footer":{
+        "number": "1153175673"
+    }
+
+}

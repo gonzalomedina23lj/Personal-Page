@@ -1,0 +1,31 @@
+<mat-toolbar class="custom-toolbar" color="primary">
+    <div class="toolbar-items-icons" fxHide.gt-xs fxShow.lt-xs >
+<!--         <button mat-mini-fab color="primary" aria-label="menu">
+            <mat-icon>menu</mat-icon>
+        </button> -->
+        <button mat-mini-fab color="primary" aria-label="home">
+            <mat-icon>home</mat-icon>
+        </button>
+        <button mat-mini-fab color="primary" aria-label="bio">
+            <mat-icon>movie_filter</mat-icon>
+        </button>
+        <button mat-mini-fab color="primary" aria-label="education">
+            <mat-icon>school</mat-icon>
+        </button>
+        <button mat-mini-fab color="primary" aria-label="works">
+            <mat-icon>work_outline</mat-icon>
+        </button>
+        <button mat-mini-fab color="primary" aria-label="contact">
+            <mat-icon>contact_mail</mat-icon>
+        </button>
+    </div>
+    <div class="toolbar-items-row" fxShow.gt-xs fxHide.lt-sm >
+        <button routerLink="home" mat-button>Home</button>
+        <button routerLink="bio" mat-button>Biography</button>
+        <button routerLink="education" mat-button>Education</button>
+        <button routerLink="works" mat-button>Works</button>
+        <button outerLink="contact" mat-button>Contact</button>
+    </div>
+    <span class="spacer"></span>
+    <app-lang-change></app-lang-change>
+</mat-toolbar>
