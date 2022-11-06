@@ -17,6 +17,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { HeroComponent } from './components/header/hero/hero.component';
 import {FlexLayoutModule} from "@angular/flex-layout";
 import { LayoutModule } from '@angular/cdk/layout';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 @NgModule({
   declarations: [
@@ -26,6 +29,7 @@ import { LayoutModule } from '@angular/cdk/layout';
     LangChangeComponent,
     ToolbarComponent,
     HeroComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,6 +41,8 @@ import { LayoutModule } from '@angular/cdk/layout';
     MatButtonModule,
     LayoutModule,
     FlexLayoutModule,
+    MatGridListModule,
+    MatProgressBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

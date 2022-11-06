@@ -17,10 +17,11 @@
 
 
 #logo{
-    margin: 2% 50% 0 40%;
+    margin-top: 40px;
+    left: calc(-105px + 50vw);
     width: calc(4.8vw + 120px);
-    
-    
+    z-index: 999;
+
 }
 
 #angular{

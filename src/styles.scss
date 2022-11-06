@@ -152,8 +152,8 @@ body {
 }
 
 .container{
-  margin: 20px;
   display: flex;
+  width: 100%;
 }
 
 :root{
@@ -180,4 +180,18 @@ h1{
   color: $accent-color;
   font-size: 24px;
   font-weight: 400;
+}
+
+h2{
+  font-family: 'Courier New', Courier, monospace;
+  color: $primary-color;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+
+}
+
+mat-grid-tile{
+  background: $accent-color;
+  z-index: 1000;
 }
