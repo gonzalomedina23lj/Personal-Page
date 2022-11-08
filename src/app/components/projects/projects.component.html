@@ -1,24 +1,23 @@
-<div class="grid-container">
-    <mat-grid-list class="custom-mat-grid-list" cols="2" rowHeight="2:1" color="warn">
-        <mat-grid-tile>
-            <h2>Movies List</h2>
-            <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
-        </mat-grid-tile>
-        <mat-grid-tile>
-            <h2>Musical Biographies</h2>
-        </mat-grid-tile>
-        <mat-grid-tile>
-            <h2>Queen of Pain Arcane</h2>
-        </mat-grid-tile>
-        <mat-grid-tile>
-            <h2>Know The Space</h2>
-            <mat-progress-bar mode="determinate" value="40%"></mat-progress-bar>
-        </mat-grid-tile>
-        <mat-grid-tile>
-            <h2>San Martín de los Andes</h2>
-        </mat-grid-tile>
-        <mat-grid-tile>
-            <h2></h2>
-        </mat-grid-tile>
-    </mat-grid-list>
+<div class="card-container">
+    <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutGap="8px grid" fxLayoutAlign="center center">
+        <div fxFlex="calc(50% - 25px)" fxFlex.xs="100%" *ngFor="let num of [1,2,3,4,5,6]">
+            <mat-card class="mat-card-custom">
+                <mat-card-header>
+                  <mat-card-title>{{num}}</mat-card-title>
+                  <mat-card-subtitle>Angular</mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="../../../../assets/images/movieslist.jpg" alt="">
+                <mat-card-content>
+                  <p>
+                    If you want to find all your favourites movies just take a look at my movies page...
+                  </p>
+                </mat-card-content>
+                <mat-card-actions>
+                  <button mat-button>PAGE</button>
+                  <button mat-button>CODE</button>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </div>
+
 </div>

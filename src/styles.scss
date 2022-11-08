@@ -151,12 +151,15 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif, 'Edu NSW ACT Foundation', cursive,'Fjalla One', sans-serif,'Lobster', cursive,'Open Sans', sans-serif;
 }
 
-.container{
+/* .container{
   display: flex;
   width: 100%;
-}
+} */
 
 :root{
+  --primary-color: #233142;
+  --accent-color: #e3e3e3;
+  --warn-color: #f95959;
   
   span{
     font-family: 'Courier New', Courier, monospace;
@@ -189,9 +192,4 @@ h2{
   font-weight: 400;
   text-align: center;
 
-}
-
-mat-grid-tile{
-  background: $accent-color;
-  z-index: 1000;
 }

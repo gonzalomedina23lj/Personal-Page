@@ -1,5 +1,5 @@
 .hero-parallax{
-    background-image:url(../../../../assets/images/hero.jpg);
+    background-image:url(../../../../assets/images/hero_large.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,14 +17,14 @@
 
 
 #logo{
-    margin-top: 40px;
-    left: calc(-105px + 50vw);
+    margin-top: 60px;
+    left: calc(-95px + 50vw);
     width: calc(4.8vw + 120px);
     z-index: 999;
 
 }
 
-#angular{
+/* #angular{
     right: calc(0.1vw + 420px);
     top: calc(1.8vh + 120px);
     filter: blur(2.5px) grayscale(60%);
@@ -34,7 +34,13 @@
     top: 80;
     left: 0;
     filter: blur(0.5px) grayscale(60%);
-}
+} */
 
-@media screen {
+
+@media (max-width: 600px) {
+    .hero-parallax{
+        background-image:url(../../../../assets/images/hero_small2.jpg);
+        height: 100vh;
+        background-position: right;
+    }
 }
