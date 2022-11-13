@@ -1,14 +1,23 @@
 .card-container{
-    background-color: var(--accent-color);
+    background-color: var(--second-color);
     z-index: 1000;
     position: sticky;
-    padding: 8px;
+    padding: 10px 15px 10px 15px;
     overflow: hidden;
+    
 }
 
 mat-card{
     background-color: var(--primary-color);
     color: var(--accent-color);
+}
+
+mat-card img{
+    height: 40vh;
+    object-fit: cover;
+    cursor: pointer;
+    filter: grayscale(80%);
+    
 }
 
 mat-card-subtitle{

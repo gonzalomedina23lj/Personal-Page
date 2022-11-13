@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CARDS } from 'src/app/shared/cards';
+
 
 @Component({
   selector: 'app-projects',
@@ -7,7 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
+  cards = CARDS;
+
+
   constructor() { }
+
+  
+
 
   ngOnInit(): void {
   }
