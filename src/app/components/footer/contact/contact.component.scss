@@ -1,0 +1,33 @@
+.contact{
+    
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact form label{
+    margin: 10px 5px 0 5px;
+}
+
+.contact form input{
+    height: 20px;
+    width: 320px;
+
+}
+
+#Message{
+    height: 110px;
+    width: 80%;
+
+}
+
+.contact form button {
+    font-size: 18px;
+    text-align: center;
+    height: 50px;
+    width: 20%;
+    margin-top: 10px;
+}

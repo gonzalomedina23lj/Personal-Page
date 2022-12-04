@@ -1,5 +1,10 @@
-.footer{
-    height: 60vh;
-    background-color: var(--accent-color);
-    flex-direction: row;
+.footer-container{
+    background-color: var(--second-color);
+    color: var(--accent-color);
+    z-index: 1000;
+    padding: 10px 20px 15px 20px;
+}
+
+.gmap_iframe{
+    filter: grayscale(100%) invert(10%) contrast(100%) sepia(20%) saturate(20%);
 }

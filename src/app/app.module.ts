@@ -21,6 +21,9 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatCardModule } from '@angular/material/card';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ContactComponent } from './components/footer/contact/contact.component';
+
 
 @NgModule({
   declarations: [
@@ -31,6 +34,7 @@ import { MatCardModule } from '@angular/material/card';
     ToolbarComponent,
     HeroComponent,
     ProjectsComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
@@ -44,7 +48,9 @@ import { MatCardModule } from '@angular/material/card';
     FlexLayoutModule,
     MatGridListModule,
     MatProgressBarModule,
-    MatCardModule
+    MatCardModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
