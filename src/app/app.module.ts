@@ -21,7 +21,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatCardModule } from '@angular/material/card';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { ContactComponent } from './components/footer/contact/contact.component';
 
 
@@ -50,7 +50,6 @@ import { ContactComponent } from './components/footer/contact/contact.component'
     MatProgressBarModule,
     MatCardModule,
     FormsModule,
-    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

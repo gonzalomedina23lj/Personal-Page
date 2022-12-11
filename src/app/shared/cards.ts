@@ -7,8 +7,8 @@ export const CARDS:Card[] = [
         Video: '../../../../assets/images/movieslist.jpg',
         Content: 'If you want to find all your favourites movies just take a look at my movies page...',
         Progress: 90,
-        PageButton: 'xxx',
-        CodeButton:'cccc'
+        PageButton: 'https://findyourmovie-gm23.netlify.app',
+        CodeButton:'https://github.com/gonzalomedina23lj/Page-Movies_List'
     },
 
     {

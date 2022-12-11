@@ -1,24 +1,32 @@
-.card-container{
+.projects{
     background-color: var(--second-color);
-    z-index: 1000;
     position: sticky;
-    padding: 10px 15px 10px 15px;
-    
+    padding: 25px 15px 25px 15px;
 }
 
-mat-card{
+.custom_mat-card{
     background-color: var(--primary-color);
     color: var(--accent-color);
 }
 
-mat-card img{
+.custom_mat-card:hover{
+    transform: scale(1.06);
+    transition: all ease .3s;
+    z-index: 2000;
+}
+
+.custom_mat-card img{
     height: 40vh;
     object-fit: cover;
     cursor: pointer;
     filter: grayscale(80%);
-    
 }
 
-mat-card-subtitle{
+.custom_mat-card img:hover{
+    filter: grayscale(0%);
+    z-index: 1000;
+}
+
+.custom_mat-card-subtitle{
     color: var(--warn-color);
 }
