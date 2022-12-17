@@ -37,8 +37,8 @@ export const CARDS:Card[] = [
         Video: '../../../../assets/images/queenofpain.jpg',
         Content: 'Do you like Dota 2? Page about QOP Arcane...Nice Witch!! ',
         Progress: 100,
-        PageButton: 'https://gonzalomedina23lj.github.io/Page-Queen_of_Pain_Arcana/',
-        CodeButton:'https://github.com/gonzalomedina23lj/Page-Queen_of_Pain_Arcana'
+        PageButton: 'https://gonzalomedina23lj.github.io/Page-Queen_of_Pain_Arcana',
+        CodeButton:'https://github.com/gonzalomedina23lj/Page-Queen_of_Pain_Arcana',
     },
 
     {
@@ -47,7 +47,7 @@ export const CARDS:Card[] = [
         Video: '../../../../assets/images/sanmartin.jpg',
         Content: 'Beautiful city of Patagonia Argentina',
         Progress: 100,
-        PageButton: 'https://gonzalomedina23lj.github.io/Page-SM_de_los_Andes/',
+        PageButton: 'https://gonzalomedina23lj.github.io/Page-SM_de_los_Andes',
         CodeButton:'https://github.com/gonzalomedina23lj/Page-SM_de_los_Andes',
     },
 
