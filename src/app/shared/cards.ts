@@ -37,8 +37,8 @@ export const CARDS:Card[] = [
         Video: '../../../../assets/images/queenofpain.jpg',
         Content: 'Do you like Dota 2? Page about QOP Arcane...Nice Witch!! ',
         Progress: 100,
-        PageButton: 'xxx',
-        CodeButton:'cccc'
+        PageButton: 'https://gonzalomedina23lj.github.io/Page-Queen_of_Pain_Arcana/',
+        CodeButton:'https://github.com/gonzalomedina23lj/Page-Queen_of_Pain_Arcana'
     },
 
     {
