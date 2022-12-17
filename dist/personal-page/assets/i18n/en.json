@@ -1,0 +1,32 @@
+[
+    {
+        "en_button": "English",
+        
+        "header":{
+            "webtitle": "Gonzalo Medina | Web Developer",
+            "title": "Welcome to my Personal Profile",
+            "subtitle": "This is who I'm"
+
+        },
+
+        "biography": "I worked a lot and study more",
+        
+        "projects":[
+            {
+                "id":1,
+                "title":"Movies List",
+                "subtitle":"Angular",
+                "description":"If you want to find all your favourites movies just take a look at my movies page...",
+                "button_1":"PAGE",
+                "button_2":"CODE"
+            } 
+
+
+    ],
+        "footer":{
+            "number": "1153175673"
+        }
+
+}
+]
+

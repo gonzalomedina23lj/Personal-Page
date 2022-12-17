@@ -1,0 +1,21 @@
+{
+    "en_button": "Español",
+    
+    "header":{
+        "webtitle": "Gonzalo Medina | Desarrollador Web",
+        "title": "Bienvenido a mi Página Personal",
+        "subtitle": "Aquí conocerás quien soy"
+
+    },
+
+    "biography": "Trabajé mucho y estudié más",
+    
+    "projects":{
+        "description": "Echá un vistazo a mi porfolio de trabajos"
+    }, 
+    
+    "footer":{
+        "number": "1153175673"
+    }
+
+}
