@@ -25,6 +25,7 @@ export class ContactComponent implements OnInit {
     this.submited=true;
     console.log("Form is submited!");
     console.log(values);
+    localStorage.setItem('model', JSON.stringify(values))
 
   }
 
