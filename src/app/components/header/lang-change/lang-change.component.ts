@@ -6,24 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lang-change.component.scss']
 })
 export class LangChangeComponent implements OnInit {
+  
+  switchLang(){
+  
+  }
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
-
-  /*   changeLang(lang:any){
-    localStorage.setItem('lang', lang);
-    window.location.reload();
-  } */
-
-  selectedLang='';
-  changeLang(value:string):void{
-    this.selectedLang=value;
-    localStorage.setItem('lang', value);
-    window.location.reload()
-    console.log(value)
-  }
+  
 
 }

@@ -10,7 +10,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { LangChangeComponent } from './components/header/lang-change/lang-change.component';
 
 //Angular Material
-import  { MatToolbarModule } from '@angular/material/toolbar';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { ToolbarComponent } from './components/header/toolbar/toolbar.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
@@ -23,6 +23,14 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatCardModule } from '@angular/material/card';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ContactComponent } from './components/footer/contact/contact.component';
+import { BiographyComponent } from './components/biography/biography.component';
+import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 
 
 @NgModule({
@@ -35,6 +43,7 @@ import { ContactComponent } from './components/footer/contact/contact.component'
     HeroComponent,
     ProjectsComponent,
     ContactComponent,
+    BiographyComponent,
   ],
   imports: [
     BrowserModule,
@@ -51,6 +60,14 @@ import { ContactComponent } from './components/footer/contact/contact.component'
     MatCardModule,
     FormsModule,
     ReactiveFormsModule,
+    TranslateModule.forRoot({
+      defaultLanguage:'en',
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient],
+      }
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]
