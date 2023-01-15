@@ -1,8 +1,10 @@
 {
-    "en_button": "Español",
+
+    "Prueba":"Prueba Español",
+
+    "webtitle": "Gonzalo Medina | Desarrollador Web",
     
     "header":{
-        "webtitle": "Gonzalo Medina | Desarrollador Web",
         "title": "Bienvenido a mi Página Personal",
         "subtitle": "Aquí conocerás quien soy"
 
@@ -15,7 +17,14 @@
     }, 
     
     "footer":{
-        "number": "1153175673"
+        "title": "Contáctame",
+        "description":"Estoy interesado en oportunidades freelance vinculadas a trabajos de diseño web, desarrollo de videojuegos y manejo de datos. Sin embargo, si tienes otra petición o pregunta, no dudes en completar el formulario.",
+        "form":{
+            "name":"Nombre",
+            "email":"Email",
+            "subject":"Asunto",
+            "message":"Mensaje"
+        }
     }
 
 }

@@ -1,9 +1,9 @@
 <div class="contact">
-    <h1>Contact Me</h1>
-    <p>I’m interested in freelance opportunities – especially ambitious or large projects. However, if you have other request or question, don’t hesitate to use the form.</p>
+    <h1>{{ 'footer.title' | translate }}</h1>
+    <p>{{ 'footer.description' | translate }}</p>
     <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm.value); contactForm.resetForm()">
         
-        <label for="name">Name</label>
+        <label for="name">{{ 'footer.form.name' | translate }}</label>
         <input
             type="text" id="name" name="name" #name="ngModel" [(ngModel)]="model.name"
             required
@@ -11,7 +11,7 @@
             maxlength="30"/>
         <span *ngIf="name.invalid && name.touched" class="error">Name is not valid</span>
 
-        <label for="email">Email</label>
+        <label for="email">{{ 'footer.form.email' | translate }}</label>
         <input 
             type="text" id="email" name="email" #email="ngModel" 
             [(ngModel)]="model.email"
@@ -20,7 +20,7 @@
             required/>
         <span *ngIf="email.invalid && email.touched" class="error">Email is not valid</span>
         
-        <label for="subject">Subject</label>
+        <label for="subject">{{ 'footer.form.subject' | translate }}</label>
         <input 
             type="text" id="subject" name="subject" #subject="ngModel" 
             [(ngModel)]="model.subject" 
@@ -29,7 +29,7 @@
             required/>
         <span *ngIf="subject.invalid && subject.touched" class="error">Subject is not valid</span>
         
-        <label for="message">Message</label>
+        <label for="message">{{ 'footer.form.subject' | translate }}</label>
         <textarea name="" id="message" #message="ngModel" cols="60" rows="10" 
             placeholder="Leave a message..." 
             name="message" 

@@ -1,32 +1,38 @@
-[
-    {
-        "en_button": "English",
+{
+    "Prueba":"English Leasson",
+    
+
+    "webtitle": "Gonzalo Medina | Web Developer",
         
-        "header":{
-            "webtitle": "Gonzalo Medina | Web Developer",
-            "title": "Welcome to my Personal Profile",
-            "subtitle": "This is who I'm"
+    "header":{
+            
+        "title": "Welcome to my Personal Profile",
+        "subtitle": "This is who I'm"
 
-        },
+    },
 
-        "biography": "I worked a lot and study more",
+    "biography": "I worked a lot and study more",
         
-        "projects":[
-            {
-                "id":1,
-                "title":"Movies List",
-                "subtitle":"Angular",
-                "description":"If you want to find all your favourites movies just take a look at my movies page...",
-                "button_1":"PAGE",
-                "button_2":"CODE"
-            } 
-
-
-    ],
+    "projects":[
+        {
+            "id":1,
+            "title":"Movies List",
+            "subtitle":"Angular",
+            "description":"If you want to find all your favourites movies just take a look at my movies page...",
+            "button_1":"PAGE",
+            "button_2":"CODE"
+        }],
+    
         "footer":{
-            "number": "1153175673"
+            "title": "Contact Me",
+            "description":"I am interested in freelance opportunities related to web design, video games and data management. However, if you have other request or question, don’t hesitate to use the form.",
+            "form":{
+                "name":"Name",
+                "email":"Email",
+                "subject":"Subject",
+                "message":"Message"
+            }
         }
 
 }
-]
 

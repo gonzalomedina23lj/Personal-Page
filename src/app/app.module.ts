@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { LangChangeComponent } from './components/header/lang-change/lang-change.component';
+import { SwitchLangComponent } from './components/header/switch-lang/switch-lang.component';
 
 //Angular Material
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -38,7 +38,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    LangChangeComponent,
+    SwitchLangComponent,
     ToolbarComponent,
     HeroComponent,
     ProjectsComponent,
@@ -60,6 +60,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatCardModule,
     FormsModule,
     ReactiveFormsModule,
+    HttpClientModule,
     TranslateModule.forRoot({
       defaultLanguage:'en',
       loader: {
