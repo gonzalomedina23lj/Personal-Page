@@ -7,8 +7,10 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./switch-lang.component.scss']
 })
 export class SwitchLangComponent {
-  
-  constructor(public translate:TranslateService) { }
+
+  constructor(public translate:TranslateService) {
+
+  }
 
   switchLang = (lang:string) => {
     this.translate.use(lang)

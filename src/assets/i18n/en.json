@@ -1,36 +1,45 @@
 {
     
-    "webtitle": "Gonzalo Medina | Web Developer",
+    "page_title": "Gonzalo Medina | Web Developer",
         
     "header":{
-            
-        "title": "Welcome to my Personal Profile",
-        "subtitle": "This is who I'm"
+        "toolbar":{
+            "home":"Home",
+            "biography":"Biography",
+            "projects":"Projects",
+            "contact":"Contact"
+        }
+
 
     },
 
     "biography": "I worked a lot and study more",
         
-    "projects":[
-        {
-            "id":1,
+    "projects":{
+        "movies_list":{
             "title":"Movies List",
-            "subtitle":"Angular",
-            "description":"If you want to find all your favourites movies just take a look at my movies page...",
-            "button_1":"PAGE",
-            "button_2":"CODE"
-        }],
-    
-        "footer":{
-            "title": "Contact Me",
-            "description":"I am interested in freelance opportunities related to web design, video games and data management. However, if you have other request or question, don’t hesitate to use the form.",
-            "form":{
-                "name":"Name",
-                "email":"Email",
-                "subject":"Subject",
-                "message":"Message"
-            }
+            "description":"Take a look at the info and posters of your favourites movies",
+            "button_page":"PAGE",
+            "button_code":"CODE"
         }
+    },
+    
+    "footer":{
+        "title": "Contact Me",
+        "description":"I am interested in freelance opportunities related to web design, video games and data management. However, if you have other request or question, don’t hesitate to use the form.",
+        "form":{
+            "name":"Name",
+            "email":"Email",
+            "subject":"Subject",
+            "message":"Message",
+            "placeholder_message":"Leave a message...",
+            "error_name":"Name is not valid",
+            "error_email":"Name is not valid",
+            "error_subject":"Subject is not valid",
+            "error_message":"Please enter a message",
+            "submit":"Submit"
+        }
+    }
 
 }
 

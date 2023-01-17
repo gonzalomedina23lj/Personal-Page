@@ -1,21 +1,27 @@
 {
 
-    "Prueba":"Prueba Español",
-
-    "webtitle": "Gonzalo Medina | Desarrollador Web",
+    "page_title": "Gonzalo Medina | Desarrollador Web",
     
     "header":{
-        "title": "Bienvenido a mi Página Personal",
-        "subtitle": "Aquí conocerás quien soy"
+        "toolbar":{
+            "home":"Home",
+            "biography":"Biografía",
+            "projects":"Proyectos",
+            "contact":"Contacto"
+        }
+
 
     },
 
-    "biography": "Trabajé mucho y estudié más",
-    
     "projects":{
-        "description": "Echá un vistazo a mi porfolio de trabajos"
-    }, 
-    
+        "movies_list":{
+            "title":"Movies List",
+            "description":"Take a look at the info and posters of your favourites movies",
+            "button_page":"PÁGINA",
+            "button_code":"CÓDIGO"
+        }
+    },
+
     "footer":{
         "title": "Contáctame",
         "description":"Estoy interesado en oportunidades freelance vinculadas a trabajos de diseño web, desarrollo de videojuegos y manejo de datos. Sin embargo, si tienes otra petición o pregunta, no dudes en completar el formulario.",
@@ -23,7 +29,13 @@
             "name":"Nombre",
             "email":"Email",
             "subject":"Asunto",
-            "message":"Mensaje"
+            "message":"Mensaje",
+            "placeholder_message":"Deja un mensaje...",
+            "error_name":"El nombre no es valido",
+            "error_email":"El email no es valido",
+            "error_subject":"El asunto no es valido",
+            "error_message":"Por favor ingrese un mensaje",
+            "submit":"Enviar"
         }
     }
 

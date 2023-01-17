@@ -9,7 +9,7 @@
             required
             minlength="3"
             maxlength="30"/>
-        <span *ngIf="name.invalid && name.touched" class="error">Name is not valid</span>
+        <span *ngIf="name.invalid && name.touched" class="error">{{ 'footer.form.error_name' | translate }}</span>
 
         <label for="email">{{ 'footer.form.email' | translate }}</label>
         <input 
@@ -18,7 +18,7 @@
             minlength="5"
             pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
             required/>
-        <span *ngIf="email.invalid && email.touched" class="error">Email is not valid</span>
+        <span *ngIf="email.invalid && email.touched" class="error">{{ 'footer.form.error_email' | translate }}</span>
         
         <label for="subject">{{ 'footer.form.subject' | translate }}</label>
         <input 
@@ -27,19 +27,19 @@
             minlength="4"
             maxlength="30"
             required/>
-        <span *ngIf="subject.invalid && subject.touched" class="error">Subject is not valid</span>
+        <span *ngIf="subject.invalid && subject.touched" class="error">{{ 'footer.form.error_subject' | translate }}</span>
         
         <label for="message">{{ 'footer.form.subject' | translate }}</label>
         <textarea name="" id="message" #message="ngModel" cols="60" rows="10" 
-            placeholder="Leave a message..." 
+            placeholder="{{ 'footer.form.placeholder_message' | translate }}" 
             name="message" 
             [(ngModel)]="model.message"
             minlength="8"
             required
         ></textarea>
-        <span *ngIf="message.invalid && message.touched" class="error">Please enter a message</span>
+        <span *ngIf="message.invalid && message.touched" class="error">{{ 'footer.form.error_message' | translate }}</span>
         
-        <button mat-raised-button color="warn" type="submit" [disabled]="contactForm.invalid" class="custom_button btn btn-success">Submit</button>
+        <button mat-raised-button color="warn" type="submit" [disabled]="contactForm.invalid" class="custom_button btn btn-success">{{ 'footer.form.submit' | translate }}</button>
     </form>
 
 

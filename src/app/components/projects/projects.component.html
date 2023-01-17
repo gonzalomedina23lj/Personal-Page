@@ -14,8 +14,8 @@
                 </mat-card-content>
                 <mat-progress-bar color="warn" mode="determinate" value="{{card.Progress}}"></mat-progress-bar>
                 <mat-card-actions>
-                  <a href="{{card.PageButton}}" target="_blank"><button mat-button>PAGE</button></a>
-                  <a href="{{card.CodeButton}}" target="_blank"><button mat-button>CODE</button></a>
+                  <a href="{{card.PageButton}}" target="_blank"><button mat-button>{{ 'projects.movies_list.button_page' | translate }}</button></a>
+                  <a href="{{card.CodeButton}}" target="_blank"><button mat-button>{{ 'projects.movies_list.button_code' | translate }}</button></a>
                 </mat-card-actions>
             </mat-card>
         </div>

@@ -8,16 +8,19 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'PersonalPage';
+  
 
   constructor(public translate:TranslateService){
     translate.addLangs(['en','es']);
     const lang = translate.getBrowserLang();
     if ((lang !== 'es') && (lang!== 'en')){
       translate.setDefaultLang('en');
-    }
+    };
 
+    if (lang === 'en'){
+      document.title="Web Developer"
+    };
   }
 
-  
 
 }
