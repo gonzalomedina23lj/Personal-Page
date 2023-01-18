@@ -8,16 +8,19 @@ import { CARDS } from 'src/app/shared/cards';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-
+  
   cards = CARDS;
 
-
   constructor() { }
-
   
 
 
   ngOnInit(): void {
   }
+  
 
 }
+
+
+ 
+

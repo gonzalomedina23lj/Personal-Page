@@ -16,7 +16,19 @@
     "projects":{
         "movies_list":{
             "title":"Movies List",
-            "description":"Take a look at the info and posters of your favourites movies",
+            "description":"Visualiza la información y los posters de tus peliculas y series favoritas",
+            "button_page":"PÁGINA",
+            "button_code":"CÓDIGO"
+        },
+        "musical_biographies":{
+            "title":"Musical Biographies",
+            "description":"Kb",
+            "button_page":"PÁGINA",
+            "button_code":"CÓDIGO"
+        },
+        "elforc_battle":{
+            "title":"ElfOrc Battle",
+            "description":"Un juego por el futuro de la tierra media. Ayuda al elfo a destruir la amenaza orca...",
             "button_page":"PÁGINA",
             "button_code":"CÓDIGO"
         }

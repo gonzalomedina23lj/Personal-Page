@@ -1,4 +1,4 @@
-<div class="projects container">
+<div class="projects container" id="projects">
     <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutGap="10px grid" fxLayoutAlign="center center">
         <div fxFlex="calc(30% - 35px)" fxFlex.sm="50%" fxFlex.xs="100%"  *ngFor="let card of cards">
             <mat-card tabindex="0" class="custom_mat-card">
@@ -8,9 +8,9 @@
                 </mat-card-header>
                 <img mat-card-image src={{card.Video}} alt="">
                 <mat-card-content>
-                  <p>
-                    {{card.Content}}
-                  </p>
+                    <p>
+                      {{ card.Content | translate }}
+                    </p>
                 </mat-card-content>
                 <mat-progress-bar color="warn" mode="determinate" value="{{card.Progress}}"></mat-progress-bar>
                 <mat-card-actions>

@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { pipe } from 'rxjs';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent {
   title = 'PersonalPage';
   
@@ -16,11 +18,9 @@ export class AppComponent {
     if ((lang !== 'es') && (lang!== 'en')){
       translate.setDefaultLang('en');
     };
-
-    if (lang === 'en'){
-      document.title="Web Developer"
-    };
   }
+
+
 
 
 }

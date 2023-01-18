@@ -6,6 +6,7 @@ import { TranslateService } from '@ngx-translate/core';
   templateUrl: './switch-lang.component.html',
   styleUrls: ['./switch-lang.component.scss']
 })
+
 export class SwitchLangComponent {
 
   constructor(public translate:TranslateService) {
@@ -13,9 +14,8 @@ export class SwitchLangComponent {
   }
 
   switchLang = (lang:string) => {
-    this.translate.use(lang)
+    this.translate.use(lang);
     console.log(this.translate.currentLang);
-
   };
   
 

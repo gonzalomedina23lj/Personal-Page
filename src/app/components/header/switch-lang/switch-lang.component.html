@@ -3,7 +3,7 @@
         <option *ngFor="let language of translate.getLangs()"
         [value]="language"
         [selected]="language === translate.currentLang">
-        {{ language }}
+        {{ language | uppercase }}
         </option>
     </select>
 </nav>

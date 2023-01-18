@@ -12,13 +12,23 @@
 
 
     },
-
-    "biography": "I worked a lot and study more",
-        
+    
     "projects":{
         "movies_list":{
             "title":"Movies List",
             "description":"Take a look at the info and posters of your favourites movies",
+            "button_page":"PAGE",
+            "button_code":"CODE"
+        },
+        "musical_biographies":{
+            "title":"Musical Biographies",
+            "description":"Kb",
+            "button_page":"PAGE",
+            "button_code":"CODE"
+        },
+        "elforc_battle":{
+            "title":"ElfOrc Battle",
+            "description":"A game for the future of middle earth. Help and elf to destroy dhe orc threat...",
             "button_page":"PAGE",
             "button_code":"CODE"
         }

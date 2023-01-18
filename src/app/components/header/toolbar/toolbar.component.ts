@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ToolbarComponent implements OnInit {
 
-  constructor() {
+  constructor(private scroller:ViewportScroller ) {
+    
     
 
    }
@@ -16,6 +18,20 @@ export class ToolbarComponent implements OnInit {
     
   }
 
+  goHeader() {
+    document.getElementById('header')?.scrollIntoView({behavior:"smooth"});
+    
+  }
+
+  goProjects() {
+    document.getElementById('projects')?.scrollIntoView({behavior:"smooth"});
+  }
+
+  goContact() {
+    document.getElementById('contact')?.scrollIntoView({behavior:"smooth"});
+  }
+
   
+
 
 }
