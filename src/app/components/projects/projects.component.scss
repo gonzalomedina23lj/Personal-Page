@@ -12,7 +12,7 @@
 }
 
 .custom_mat-card:hover{
-    transform: scale(1.06);
+    transform: scale(1.02);
     transition: all ease .3s;
     z-index: 2000;
 }
@@ -30,6 +30,11 @@
 
 .custom_mat-card-subtitle{
     color: var(--warn-color);
+}
+
+.custom_mat-card-content{
+    height: 40px;
+
 }
 
 

@@ -22,16 +22,36 @@
         },
         "musical_biographies":{
             "title":"Musical Biographies",
-            "description":"Kb",
+            "description":"Conoce más sobre tus bandas favoritas y descubre nueva música para tus oídos.",
             "button_page":"PÁGINA",
             "button_code":"CÓDIGO"
         },
         "elforc_battle":{
             "title":"ElfOrc Battle",
             "description":"Un juego por el futuro de la tierra media. Ayuda al elfo a destruir la amenaza orca...",
-            "button_page":"PÁGINA",
+            "button_page":"JUGAR",
             "button_code":"CÓDIGO"
+        },
+
+        "san_martin":{
+            "title":"San Martín de los Andes",
+            "description":"Uno de los sitios más hermosos de Argentina. Visita San Martín de los Andes a través de esta página.",
+            "button_page":"PAGE",
+            "button_code":"CODE"
+        },
+        "qop_arcane":{
+            "title":"Queen Of Pain: Arcane",
+            "description":"No importa si no juegas Dota 2, puedes echar un vistazo a este gran skin de Queen Of Pain...'¡Make way for your Queen!'.",
+            "button_page":"PAGE",
+            "button_code":"CODE"
+        },
+        "know_space":{
+            "title":"Know Space",
+            "description":"Descubre más sobre nuestro universo cercano a través de este sitio web diseñado con efecto Parallax",
+            "button_page":"PAGE",
+            "button_code":"CODE"
         }
+        
     },
 
     "footer":{

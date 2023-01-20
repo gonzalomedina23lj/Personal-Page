@@ -4,6 +4,7 @@ export interface Card{
     Video: string;
     Content: string;
     Progress: number;
+    ButtonText: string;
     PageButton: string;
     CodeButton: string;
 }
