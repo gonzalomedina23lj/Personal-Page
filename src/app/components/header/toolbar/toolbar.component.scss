@@ -25,9 +25,8 @@ mat-icon{
 
 @media (max-width: 599px) {
     .custom-toolbar{
-        top: calc(90% + 10px); 
-        left: 50%;
-        transform: translate(-50%, 0%);
+        top: 90vh; 
+        left: 10%;
         height: 50px;
         width: 292px;
         border-radius: 8px;
