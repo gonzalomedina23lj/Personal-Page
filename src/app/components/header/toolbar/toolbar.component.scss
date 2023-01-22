@@ -25,12 +25,12 @@ mat-icon{
 
 @media (max-width: 599px) {
     .custom-toolbar{
-        top: 93vh; 
-        margin-left: 20%; 
+        top: calc(90% + 10px); 
+        left: 50%;
+        transform: translate(-50%, 0%);
         height: 50px;
         width: 292px;
         border-radius: 8px;
-        position: fixed;
         z-index: 3000;
         background-image: none;
         backdrop-filter: blur(5px);
