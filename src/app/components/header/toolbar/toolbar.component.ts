@@ -30,8 +30,4 @@ export class ToolbarComponent implements OnInit {
   goContact() {
     document.getElementById('contact')?.scrollIntoView({behavior:"smooth"});
   }
-
-  
-
-
 }
