@@ -16,20 +16,27 @@
     transition: all ease .3s;
     z-index: 2000;
 }
-.custom_mat-card img{
+
+.custom_mat-card-subtitle{
+    color: var(--warn-color);
+}
+
+.mat-card-video{
+    width: calc(100% + 32px);
+    margin: 0 -16px 16px -16px;
+    display: block;
+    overflow: hidden;
     height: 40vh;
     object-fit: cover;
     cursor: pointer;
     filter: grayscale(80%);
+    
 }
 
-.custom_mat-card img:hover{
+.mat-card-video:hover{
     filter: grayscale(0%);
     z-index: 1000;
-}
-
-.custom_mat-card-subtitle{
-    color: var(--warn-color);
+    
 }
 
 .custom_mat-card-content{
@@ -38,6 +45,10 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
+    .custom_mat-card-content{
+        min-width: 80vw;
+    
+    }
     
 }

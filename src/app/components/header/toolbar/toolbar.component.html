@@ -1,26 +1,23 @@
 <mat-toolbar class="custom-toolbar" color="primary">
     <div class="toolbar-items-icons" fxHide.gt-xs fxShow.lt-xs >
-<!--         <button mat-mini-fab color="primary" aria-label="menu">
-            <mat-icon>menu</mat-icon>
-        </button> -->
         <button mat-mini-fab color="primary" aria-label="home" (click)="goHeader()">
             <mat-icon>home</mat-icon>
         </button>
-        <button mat-mini-fab color="primary" aria-label="bio">
-            <mat-icon>movie_filter</mat-icon>
+        <button mat-mini-fab color="primary" aria-label="about">
+            <mat-icon>person</mat-icon>
         </button>
         <button mat-mini-fab color="primary" aria-label="projects" (click)="goProjects()">
             <mat-icon>work_outline</mat-icon>
         </button>
         <button mat-mini-fab color="primary" aria-label="contact" (click)="goContact()">
-            <mat-icon>contact_mail</mat-icon>
+            <mat-icon>smartphone</mat-icon>
         </button>
     </div>
     <div class="toolbar-items-row" fxShow.gt-xs fxHide.lt-sm>
-        <button routerLink="/home" (click)="goHeader()" mat-button>{{ 'header.toolbar.home' | translate }}</button>
-        <button routerLink="/bio" mat-button>{{ 'header.toolbar.biography' | translate }}</button>
-        <button routerLink="/projects" (click)="goProjects()" mat-button>{{ 'header.toolbar.projects' | translate }}</button>
-        <button routerLink="/contact" (click)="goContact()" mat-button>{{ 'header.toolbar.contact' | translate }}</button>
+        <button (click)="goHeader()" mat-button>{{ 'header.toolbar.home' | translate }}</button>
+        <button mat-button>{{ 'header.toolbar.biography' | translate }}</button>
+        <button (click)="goProjects()" mat-button>{{ 'header.toolbar.projects' | translate }}</button>
+        <button (click)="goContact()" mat-button>{{ 'header.toolbar.contact' | translate }}</button>
     </div>
     <span class="spacer"></span>
     <app-switch-lang></app-switch-lang>

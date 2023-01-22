@@ -32,16 +32,16 @@
 
 
 @media (max-width: 600px) {
-    .hero_parallax{
+/*     .hero_parallax{
         background-image:url(../../../../assets/images/hero_small2.jpg);
         height: 110vh;
         background-position: right;
-    }
+    } */
 
     #logo{
         margin-top: -180px;
         width: calc(4.8vw + 180px);
-        top: 50%; 
+        top: 70%; 
         left: 50%;
         transform: translate(-50%, -50%);
     

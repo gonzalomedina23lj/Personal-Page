@@ -16,7 +16,7 @@
     "projects":{
         "movies_list":{
             "title":"Movies List",
-            "description":"Take a look at the info and posters of your favourites movies.",
+            "description":"Take a look at the info and posters of your favourites movies and series.",
             "button_page":"PAGE",
             "button_code":"CODE"
         },

@@ -4,7 +4,7 @@ export const CARDS:Card[] = [
     {
         Title: 'Movies List',
         SubTitle: 'Angular',
-        Video: '../../../../assets/video/qop_arcane.mp4',
+        Video: '../../../../assets/videos/movies_list.mp4',
         Content: 'projects.movies_list.description',
         Progress: 90,
         ButtonText: 'projects.movies_list.button_page',
@@ -15,7 +15,7 @@ export const CARDS:Card[] = [
     {
         Title: 'Musical Biographies',
         SubTitle: 'Angular',
-        Video: '../../../../assets/images/movieslist.jpg',
+        Video: '../../../../assets/videos/movies_list.mp4',
         Content: 'projects.musical_biographies.description',
         Progress: 40,
         ButtonText: 'projects.musical_biographies.button_page',
@@ -26,7 +26,7 @@ export const CARDS:Card[] = [
     {
         Title: 'ElfOrc Battle',
         SubTitle: 'Python',
-        Video: '../../../../assets/images/elforcbattle.jpg',
+        Video: '../../../../assets/videos/san_martin.mp4',
         Content: 'projects.elforc_battle.description',
         Progress: 90,
         ButtonText: 'projects.elforc_battle.button_page',
@@ -37,7 +37,7 @@ export const CARDS:Card[] = [
     {
         Title: 'Queen of Pain: Arcane',
         SubTitle: 'HTML,CSS, JavaScript',
-        Video: '../../../../assets/video/qop_arcane.mp4',
+        Video: '../../../../assets/videos/qop_arcane.mp4',
         Content: 'projects.qop_arcane.description',
         Progress: 100,
         ButtonText: 'projects.qop_arcane.button_page',
@@ -48,7 +48,7 @@ export const CARDS:Card[] = [
     {
         Title: 'San Martín de los Andes',
         SubTitle: 'HTML,CSS, JavaScript',
-        Video: '../../../../assets/images/sanmartin.jpg',
+        Video: '../../../../assets/videos/san_martin.mp4',
         Content: 'projects.san_martin.description',
         Progress: 100,
         ButtonText: 'projects.san_martin.button_page',
@@ -59,7 +59,7 @@ export const CARDS:Card[] = [
     {
         Title: 'Know Space',
         SubTitle: 'HTML,CSS, JavaScript',
-        Video: '../../../../assets/images/space.jpg',
+        Video: '../../../../assets/videos/know_space.mp4',
         Content: 'projects.know_space.description',
         Progress: 35,
         ButtonText: 'projects.know_space.button_page',

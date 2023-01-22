@@ -1,4 +1,11 @@
 .lang{
     padding: 0px 50px 0 0;
-
 }
+
+.lang select {
+    background-color: var(--accent-color);
+    border-radius: 8px;
+    border-color: var(--warn-color);
+    border-width: 2px;
+}
+
