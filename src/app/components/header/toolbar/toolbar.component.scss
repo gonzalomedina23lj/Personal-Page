@@ -48,7 +48,7 @@ mat-icon{
 
     mat-toolbar.tool-hidden{
         transition: 0.2s;
-        transform: translateY(200%);
+        display: none;
     }
 
 }
