@@ -9,6 +9,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SwitchLangComponent } from './components/header/switch-lang/switch-lang.component';
 
+import { NgxHideOnScrollModule } from 'ngx-hide-on-scroll';
+
 //Angular Material
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { ToolbarComponent } from './components/header/toolbar/toolbar.component';
@@ -58,6 +60,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatGridListModule,
     MatProgressBarModule,
     MatCardModule,
+    NgxHideOnScrollModule,
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,

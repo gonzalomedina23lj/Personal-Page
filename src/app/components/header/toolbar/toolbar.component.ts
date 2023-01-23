@@ -1,18 +1,18 @@
 import { ViewportScroller } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-toolbar',
   templateUrl: './toolbar.component.html',
   styleUrls: ['./toolbar.component.scss']
 })
+
 export class ToolbarComponent implements OnInit {
+  
 
-  constructor(private scroller:ViewportScroller ) {
-    
-    
+  constructor(private scroller:ViewportScroller ) {}
 
-   }
+
 
   ngOnInit(): void {
     
@@ -30,4 +30,6 @@ export class ToolbarComponent implements OnInit {
   goContact() {
     document.getElementById('contact')?.scrollIntoView({behavior:"smooth"});
   }
+
+
 }
