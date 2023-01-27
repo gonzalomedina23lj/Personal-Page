@@ -26,7 +26,7 @@ export const CARDS:Card[] = [
     {
         Title: 'ElfOrc Battle',
         SubTitle: 'Python',
-        Video: '../../../../assets/videos/san_martin.mp4',
+        Video: '../../../../assets/videos/elforc_battle.mp4',
         Content: 'projects.elforc_battle.description',
         Progress: 90,
         ButtonText: 'projects.elforc_battle.button_page',

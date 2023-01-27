@@ -33,11 +33,9 @@ mat-icon{
 
 @media (max-width: 599px) {
     .custom-toolbar{
-        position: fixed;
-        top: 90%;
         left: 50%;
-        transform: translateX(-50%);
-        height: 50px;
+        transform: translate(-50%, 0);
+        height: 45px;
         width: 292px;
         border-radius: 8px;
         z-index: 3000;

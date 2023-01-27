@@ -1,5 +1,5 @@
 import { ViewportScroller } from '@angular/common';
-import { Component, HostListener, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-toolbar',
@@ -21,6 +21,10 @@ export class ToolbarComponent implements OnInit {
   goHeader() {
     document.getElementById('header')?.scrollIntoView({behavior:"smooth"});
     
+  }
+
+  goAbout() {
+    document.getElementById('about')?.scrollIntoView({behavior:"smooth"});
   }
 
   goProjects() {

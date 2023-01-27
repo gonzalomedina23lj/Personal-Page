@@ -1,0 +1,28 @@
+.about {
+    width: 80%;
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    
+    
+    
+}
+
+.about-picture{
+    position: relative;
+}
+
+
+
+.about-img img{
+    transition: opacity .25s linear;
+    border-radius: 80px; 
+    border-color: var(--warn-color);
+
+    cursor: pointer;
+    filter: grayscale(80%);
+}
+
+.about-img img:hover{
+    filter: grayscale(10%);
+    transition: 0.2s;
+}

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { CARDS } from 'src/app/shared/cards';
 
 @Component({
@@ -8,22 +8,19 @@ import { CARDS } from 'src/app/shared/cards';
 })
 
 
-export class ProjectsComponent implements OnInit {
+
+export class ProjectsComponent implements OnInit{
+  
+
   
 
   cards = CARDS;
 
-  
+  constructor() {}
 
   
-  
+  ngOnInit(): void {}
 
-
-  ngOnInit(): void {
-
-    
-
-  }
 
 }
 

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Router, RouterModule, Routes } from '@angular/router';
-import { BiographyComponent } from './components/biography/biography.component';
+import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/footer/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -11,7 +11,7 @@ const routes: Routes = [
 
   {path: '', redirectTo: '/home', pathMatch:'full'},
 
-  {path: 'bio', component: BiographyComponent},
+  {path: 'about', component: AboutComponent},
   
   {path: 'projects', component: ProjectsComponent},
 

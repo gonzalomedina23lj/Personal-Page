@@ -5,7 +5,7 @@
     "header":{
         "toolbar":{
             "home":"Home",
-            "biography":"Biography",
+            "about":"About",
             "projects":"Projects",
             "contact":"Contact"
         }

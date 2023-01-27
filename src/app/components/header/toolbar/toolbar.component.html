@@ -3,7 +3,7 @@
         <button mat-mini-fab color="primary" aria-label="home" (click)="goHeader()">
             <mat-icon>home</mat-icon>
         </button>
-        <button mat-mini-fab color="primary" aria-label="about">
+        <button mat-mini-fab color="primary" aria-label="about" (click)="goAbout()">
             <mat-icon>person</mat-icon>
         </button>
         <button mat-mini-fab color="primary" aria-label="projects" (click)="goProjects()">
@@ -14,10 +14,10 @@
         </button>
     </div>
     <div class="toolbar-items-row" fxShow.gt-xs fxHide.lt-sm>
-        <button (click)="goHeader()" mat-button>{{ 'header.toolbar.home' | translate }}</button>
-        <button mat-button>{{ 'header.toolbar.biography' | translate }}</button>
-        <button (click)="goProjects()" mat-button>{{ 'header.toolbar.projects' | translate }}</button>
-        <button (click)="goContact()" mat-button>{{ 'header.toolbar.contact' | translate }}</button>
+        <button (click)="goHeader()" mat-button aria-label="header">{{ 'header.toolbar.home' | translate }}</button>
+        <button (click)="goAbout()" mat-button aria-label="about">{{ 'header.toolbar.about' | translate }}</button>
+        <button (click)="goProjects()" mat-button aria-label="projects">{{ 'header.toolbar.projects' | translate }}</button>
+        <button (click)="goContact()" mat-button aria-label="contact">{{ 'header.toolbar.contact' | translate }}</button>
     </div>
     <span class="spacer"></span>
     <app-switch-lang></app-switch-lang>
