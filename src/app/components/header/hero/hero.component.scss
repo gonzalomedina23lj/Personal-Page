@@ -1,10 +1,23 @@
 .hero_parallax{
     position: relative;
-   /*  background-image:url(../../../../assets/images/hero_large.jpg);
+    background-image:url(../../../../assets/images/hero_wide_3.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover; */
-    height: 110vh;
+    background-size: cover; 
+    height: 100vh;
+    filter: grayscale(100%);
+}
+
+.hero_parallax::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(to top, rgb(36, 33, 33), transparent);
+    z-index: 1;
+    
 }
 
 #logo{
