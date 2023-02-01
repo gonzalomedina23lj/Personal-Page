@@ -2,12 +2,19 @@
     width: calc(60vw - 14px);
     min-height: 100%;
     display: flex;
-    padding: 5px 5px 5px 5px;
+    padding: 80px 5px 80px 5px;
+    margin-top: 10vh;
     
 }
 
+
 .about-info{
     width: 70%;
+}
+
+.hi{
+    font-size: 34px;
+    color: var(--warn-color) !important;
 }
 
 .about-info p{
@@ -17,7 +24,9 @@
 
 ul {
     color: var(--warn-color);
+    padding-left: 18px;
     list-style-type: disclosure-closed;
+    align-items: left;
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;

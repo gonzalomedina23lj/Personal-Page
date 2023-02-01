@@ -35,9 +35,9 @@ mat-icon{
     .custom-toolbar{
         left: 50%;
         transform: translate(-50%, 0);
-        height: 45px;
-        width: 292px;
-        border-radius: 8px;
+        height: 55px;
+        width: 100%;
+        border-radius: 1px;
         z-index: 3000;
         background-image: none;
         backdrop-filter: blur(5px);
