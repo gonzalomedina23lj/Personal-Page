@@ -9,8 +9,14 @@
             "projects":"Projects",
             "contact":"Contact"
         }
-
-
+    },
+    
+    "about":{
+        "paragraph_1": "Hello!",
+        "paragraph_2": "Mi name is",
+        "paragraph_3": "I am a web developer who enjoys imagining and creating interactive and dynamic sites. I work as a teacher and enjoy getting involved with groups that have a common goal.",
+        "paragraph_4":"My vision as a developer is focused on providing solutions and support to organizations with projects in progress and to small companies looking to build their own responsive website. These are some of the technologies with which I worked in recent years:",
+        "paragraph_5":"I appreciate your visit and I hope you can enjoy your stay here."
     },
     
     "projects":{

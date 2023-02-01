@@ -5,19 +5,19 @@
     
 }
 
-.custom_mat-card{
+.custom-mat-card{
     color: var(--accent-color);
     background-color:var(--primary-color);
     background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23242121' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-.custom_mat-card:hover{
+.custom-mat-card:hover{
     transform: scale(1.02);
     transition: all ease .3s;
     z-index: 2000;
 }
 
-.custom_mat-card-subtitle{
+.custom-mat-card-subtitle{
     color: var(--warn-color);
 }
 
@@ -39,9 +39,8 @@
     
 }
 
-.custom_mat-card-content{
-    height: 40px;
-
+.custom-card-content{
+    height: 60px;
 }
 
 

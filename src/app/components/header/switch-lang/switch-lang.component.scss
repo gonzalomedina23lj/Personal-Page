@@ -1,11 +1,20 @@
 .lang{
-    padding: 0px 50px 0 0;
+    margin-right: 50px;
 }
 
-.lang select {
-    background-color: var(--accent-color);
-    border-radius: 8px;
+
+select {
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    width: 3.5em;
+    border-radius: .25em;
     border-color: var(--warn-color);
+    background-color: var(--accent-color);
     border-width: 2px;
+    cursor: pointer;
+    display: inline-block;
+
 }
+
 

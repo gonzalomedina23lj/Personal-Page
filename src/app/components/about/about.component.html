@@ -1,13 +1,33 @@
 <div class="about container" id="about">
     <div class="about-info">
-        <p>
-            Mi nombre es Gonzalo Medina, me gustan comer mucho y además me encanta comer mucho.
+        <p class="mat-body-1">
+            {{ 'about.paragraph_1' | translate }}
         </p>
-
+        <p>
+            {{ 'about.paragraph_2' | translate }}
+            <span class="mat-body-2">Gonzalo Medina</span>
+        </p>
+            
+        <p class="mat-body-1">
+            {{ 'about.paragraph_3' | translate }}
+        </p>
+        <p class="mat-body-1">
+            {{ 'about.paragraph_4' | translate }}
+        </p>
+        <ul>
+            <li>Angular</li>
+            <li>TypeScript</li>
+            <li>HTML, CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ul>
+        <p class="mat-body-1">
+            {{ 'about.paragraph_5' | translate }}
+        </p>
     </div>
     <div class="about-picture">
-        <img src="../../../../assets/images/about_img.jpg" alt="about-picture" width="600px" height="500px">
-        
+        <img src="../../../../assets/images/about_img.jpg" alt="about-picture">
     </div>
+
 
 </div>

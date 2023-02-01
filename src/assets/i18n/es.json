@@ -10,7 +10,15 @@
             "contact":"Contacto"
         }
 
+    },
 
+    "about":{
+        "paragraph_1":"¡Hola!",
+        "paragraph_2":"Mi nombre es ",
+        "paragraph_3":"Soy un desarrollador web que disfruta imaginando y creando sitios interactivos y dinámicos. Trabajo como docente y disfruto involucrándome con grupos que tengan un objetivo en común.",
+        "paragraph_4":"Mi visión como desarrollador está centrada en brindar soluciones y apoyo a organizaciones con proyectos en marcha y a pequeñas empresas que busquen construir su propio sitio web interactivo. Estas son algunas de las tecnologías con las que trabajé en estos últimos años:",
+        "paragraph_5":"Agradezco tu visita, espero que disfrutes tu estadía aquí."
+    
     },
 
     "projects":{
