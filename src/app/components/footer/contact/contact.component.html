@@ -1,6 +1,6 @@
 <div class="contact" id="contact">
     <h1>{{ 'footer.title' | translate }}</h1>
-    <p>{{ 'footer.description' | translate }}</p>
+    <p class="mat-caption">{{ 'footer.description' | translate }}</p>
     <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm.value); contactForm.resetForm()">
         
         <label for="name">{{ 'footer.form.name' | translate }}</label>
@@ -39,7 +39,7 @@
         ></textarea>
         <span *ngIf="message.invalid && message.touched" class="error">{{ 'footer.form.error_message' | translate }}</span>
         
-        <button mat-raised-button color="warn" type="submit" [disabled]="contactForm.invalid" class="custom_button btn btn-success">{{ 'footer.form.submit' | translate }}</button>
+        <button mat-raised-button disabled color="warn" type="submit" [disabled]="contactForm.invalid" class="custom-button btn btn-success">{{ 'footer.form.submit' | translate }}</button>
     </form>
 
 

@@ -7,6 +7,7 @@
 
 .contact form label{
     margin: 10px 5px 0 5px;
+    font-size: 16px;
     
 }
 
@@ -16,10 +17,18 @@
 
 }
 
-.custom_button {
+.custom-button {
     font-size: 18px;
     width: 120px;
     margin-top: 10px;
+}
+
+.custom-button:disabled {
+    background-color: rgba(75, 73, 73, 0.671);
+}
+
+.custom-button:enabled {
+    cursor: pointer;
 }
 
 input.ng-valid{
