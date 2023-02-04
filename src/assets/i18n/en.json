@@ -20,36 +20,43 @@
     },
     
     "projects":{
+        "title":"Projects",
+
         "movies_list":{
             "title":"Movies List",
             "description":"Take a look at the info and posters of your favourites movies and series.",
             "button_page":"PAGE",
             "button_code":"CODE"
         },
+
         "musical_biographies":{
             "title":"Musical Biographies",
             "description":"Know more about your favourites bands and explore new music to your ears.",
             "button_page":"PAGE",
             "button_code":"CODE"
         },
+
         "elforc_battle":{
             "title":"ElfOrc Battle",
             "description":"A game for the future of middle earth. Will Eärwen be able to end the orc threat?",
             "button_page":"PLAY",
             "button_code":"CODE"
         },
+
         "san_martin":{
             "title":"San Martín de los Andes",
             "description":"One of the most beautiful places of Argentina. Visit San Martín de los Andes through this page.",
             "button_page":"PAGE",
             "button_code":"CODE"
         },
+
         "qop_arcane":{
             "title":"Queen Of Pain: Arcane",
             "description":"It doesn't matter if you don't play Dota 2, you can take a look at this great Queen Of Pain skin...'¡Make way for your Queen!'",
             "button_page":"PAGE",
             "button_code":"CODE"
         },
+        
         "know_space":{
             "title":"Know Space",
             "description":"Discover our nearby universe through this website designed with Parallax effect.",

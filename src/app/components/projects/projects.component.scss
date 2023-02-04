@@ -1,5 +1,4 @@
 .projects{
-    padding: 100px 15px 40px 15px;
     position: sticky;
     z-index: 1000;
     
@@ -41,6 +40,11 @@
 
 .custom-card-content{
     height: 60px;
+}
+
+.custom-mat-button{
+    font-size: 0.74em;
+    font-weight: 600;
 }
 
 

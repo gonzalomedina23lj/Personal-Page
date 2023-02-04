@@ -1,6 +1,7 @@
 <div class="projects container" id="projects">
-    <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutGap="20px grid" fxLayoutAlign="center center">
-        <div fxFlex="calc(30% - 35px)" fxFlex.sm="85%" fxFlex.xs="calc(60%)"  *ngFor="let card of cards">
+  <h1>{{ 'projects.title' | translate }}</h1>
+    <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutGap="25px grid" fxLayoutAlign="center center">
+        <div fxFlex="calc(30% - 35px)" fxFlex.md="50%" fxFlex.sm="85%" fxFlex.xs="calc(60%)"  *ngFor="let card of cards">
             <mat-card tabindex="0" class="custom-mat-card">
                 <mat-card-header>
                   <mat-card-title class="mat-title">{{ card.Title }}</mat-card-title>
@@ -12,10 +13,11 @@
                       {{ card.Content | translate }}
                     </p>
                 </mat-card-content>
+                <span class="mat-caption">Work Progress</span>
                 <mat-progress-bar aria-label="Progress" color="warn" mode="determinate" value="{{card.Progress}}"></mat-progress-bar>
                 <mat-card-actions>
-                  <a href="{{card.PageButton}}" target="_blank"><button mat-button class="mat-button">{{ card.ButtonText | translate }}</button></a>
-                  <a href="{{card.CodeButton}}" target="_blank"><button mat-button class="mat-button">{{ 'projects.movies_list.button_code' | translate }}</button></a>
+                  <a href="{{card.PageButton}}" target="_blank"><button mat-button class="custom-mat-button">{{ card.ButtonText | translate }}</button></a>
+                  <a href="{{card.CodeButton}}" target="_blank"><button mat-button class="custom-mat-button">{{ 'projects.movies_list.button_code' | translate }}</button></a>
                 </mat-card-actions>
             </mat-card>
         </div>

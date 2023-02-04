@@ -16,6 +16,8 @@ body{
 }
 
 .container{
+  width: 90%;
+  padding: 80px 30px 40px 30px;
   overflow: hidden;
   margin: auto;
 
@@ -30,10 +32,33 @@ body{
 }
   
 h1 {
-  color: $accent-color;
-  font-size: 24px;
-  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  color: var(--accent-color);
+  margin: 5px 0 60px 40px !important;
+  padding: 0 0 10px 20px;
 }
+
+h1::after,h1::before{
+  content: '';
+  position: absolute;
+  width: 160px;
+  height: 3px;
+  background-color: var(--warn-color);
+  top: 0.9em;
+  border-radius: 30px;
+}
+
+h1::before{
+  width: 120px;
+  left: 110px;
+}
+
+h1::after{ 
+  width: 40px;
+  left: -27px;
+}
+
 
 h2 {
   color: $primary-color;
