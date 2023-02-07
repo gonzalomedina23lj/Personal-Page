@@ -1,15 +1,13 @@
 .about {
-    width: calc(60vw - 14px);
-    min-height: 100%;
+    max-width: 990px;
     display: flex;
-    padding: 80px 5px 80px 5px;
-    margin-top: 10vh;
-    
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
 .about-info{
-    width: 70%;
+    padding: 0 50px 0px 20px;
 }
 
 .hi{
@@ -40,9 +38,10 @@ ul li{
 .about-picture{
     position: relative;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
-    margin: 70px 0 0 30px;
+    margin: 20px 10px 0 30px;
+    padding-left: 20px;
     
 
 }
@@ -64,17 +63,20 @@ ul li{
     transform: scale(1.1);
 }
 
-@media (max-width: 991px)  {
+@media (max-width: 992px)  {
     .about{
-        min-height: 130vh;
+        min-height: 100vh;
         flex-direction: column;
         align-items: center;
-        width: 100%;
+    }
+
+    .about-info{
+        width: 90%;
     }
 
     .about-picture{
         margin: 70px 0 0 0;
-    
+        padding: 0;
     }
 
 }

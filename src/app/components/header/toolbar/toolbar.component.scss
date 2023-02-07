@@ -1,4 +1,5 @@
 .custom-toolbar{
+    width: 100%;
     position: fixed;
     transition: 0.4s;
     left: 0;
@@ -36,7 +37,6 @@ mat-icon{
         left: 50%;
         transform: translate(-50%, 0);
         height: 55px;
-        width: 100%;
         border-radius: 1px;
         z-index: 3000;
         background-image: none;

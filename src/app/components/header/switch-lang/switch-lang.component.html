@@ -1,4 +1,4 @@
-<nav class="lang container">
+<nav class="switch-lang-box">
     <select class="switch-lang" #selectedLang (change)="switchLang(selectedLang.value)">
         <option *ngFor="let language of translate.getLangs()"
         [value]="language"

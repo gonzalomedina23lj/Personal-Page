@@ -3,26 +3,6 @@
 @import "../src/assets/styles/custom-theme.scss";
 @include mat-core($custom-typography);
 
-
-
-
-html, body { height: 100%; }
-
-body{
-  margin: 0;
-  background-color: var(--second-color);
-  background-image: url("data:image/svg+xml,%3Csvg width='12' height='16' viewBox='0 0 12 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 .99C4 .445 4.444 0 5 0c.552 0 1 .45 1 .99v4.02C6 5.555 5.556 6 5 6c-.552 0-1-.45-1-.99V.99zm6 8c0-.546.444-.99 1-.99.552 0 1 .45 1 .99v4.02c0 .546-.444.99-1 .99-.552 0-1-.45-1-.99V8.99z' fill='%23233142' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
-  scroll-behavior: smooth;
-}
-
-.container{
-  width: 90%;
-  padding: 80px 30px 40px 30px;
-  overflow: hidden;
-  margin: auto;
-
-}
-
 :root{
   --primary-color: #233142;
   --second-color: #242121;
@@ -30,6 +10,31 @@ body{
   --warn-color: #f95959;
   
 }
+
+html, body { height: 100%; }
+
+body{
+  background-color: var(--second-color);
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='16' viewBox='0 0 12 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 .99C4 .445 4.444 0 5 0c.552 0 1 .45 1 .99v4.02C6 5.555 5.556 6 5 6c-.552 0-1-.45-1-.99V.99zm6 8c0-.546.444-.99 1-.99.552 0 1 .45 1 .99v4.02c0 .546-.444.99-1 .99-.552 0-1-.45-1-.99V8.99z' fill='%23233142' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
+  scroll-behavior: smooth;
+
+}
+
+.container{
+  max-width: 95%;
+  padding: 60px 15px 60px 15px;
+  margin: auto;
+
+}
+
+@media (max-width: 767px){
+  .container {
+    width: 100%;
+    padding: 40px 10px 40px 10px;
+    margin: 0;
+  }
+}
+
   
 h1 {
   display: inline-block;
@@ -39,7 +44,7 @@ h1 {
   padding: 0 0 10px 20px;
 }
 
-h1::after,h1::before{
+/* h1::after,h1::before{
   content: '';
   position: absolute;
   width: 160px;
@@ -57,7 +62,7 @@ h1::before{
 h1::after{ 
   width: 40px;
   left: -27px;
-}
+} */
 
 
 h2 {
