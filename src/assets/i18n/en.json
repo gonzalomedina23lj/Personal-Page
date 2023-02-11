@@ -14,9 +14,9 @@
     "about":{
         "paragraph_1": "Hello!",
         "paragraph_2": "Mi name is",
-        "paragraph_3": "I am a web developer who enjoys imagining and creating interactive and dynamic sites. I work as a teacher and enjoy getting involved with groups that have a common goal.",
-        "paragraph_4":"My vision as a developer is focused on providing solutions and support to organizations with projects in progress and to small companies looking to build their own responsive website. These are some of the technologies with which I worked in recent years:",
-        "paragraph_5":"I appreciate your visit and I hope you can enjoy your stay here."
+        "paragraph_3": "I am a web developer who enjoys imagining and creating interactive and dynamic websites. I work as a teacher and enjoy getting involved with groups that have a common goal.",
+        "paragraph_4":"My vision as a developer is focused on providing solutions and support organizations with projects in progress and small companies looking forward to build their own responsive website. These are some of the technologies with which I worked in recent years:",
+        "paragraph_5":"I appreciate your visit and I hope you can enjoy here."
     },
     
     "projects":{
@@ -38,14 +38,14 @@
 
         "elforc_battle":{
             "title":"ElfOrc Battle",
-            "description":"A game for the future of middle earth. Will Eärwen be able to end the orc threat?",
+            "description":"A game for the future of Middle Earth. Will Eärwen be able to end the Orc Threat?",
             "button_page":"PLAY",
             "button_code":"CODE"
         },
 
         "san_martin":{
             "title":"San Martín de los Andes",
-            "description":"One of the most beautiful places of Argentina. Visit San Martín de los Andes through this page.",
+            "description":"One of the most beautiful places of Argentina. Take a trip to San Martín de los Andes through this page.",
             "button_page":"PAGE",
             "button_code":"CODE"
         },
@@ -67,7 +67,7 @@
     
     "footer":{
         "title": "CONTACT ME",
-        "description":"I am interested in freelance opportunities related to web design, video games and data management. However, if you have other request or question, don’t hesitate to use the form.",
+        "description":"I am interested in freelance opportunities related to web design, video games and data management. However, if you have other request or any question, don’t hesitate to feel use the form.",
         "form":{
             "name":"Name",
             "email":"Email",

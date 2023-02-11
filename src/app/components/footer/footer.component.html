@@ -2,26 +2,37 @@
     <h1>{{ 'footer.title' | translate }}</h1>
     <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutGap="10px" fxFlexFill>
         <app-contact></app-contact>
-        <div class="social-networks">
-            <a href="https://www.linkedin.com/in/gonzalomedina23lj" target="_target">
-                <button mat-mini-fab color="primary" aria-label="linkedin">
-                    <mat-icon></mat-icon>
-                </button>
-            </a>
-            <a href="https://github.com/gonzalomedina23lj" target="_target">
-                <button mat-mini-fab color="primary" aria-label="github">
-                    <mat-icon></mat-icon>
-                </button>
-            </a>
-            <a href="https://www.linkedin.com/in/gonzalomedina23lj" target="_target">
-                <button mat-mini-fab color="primary" aria-label="whatsapp">
-                    <mat-icon></mat-icon>
-                </button>
-            </a>
-            
-        </div>
         <div class="localization" fxFlex="50%">
             <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=500&amp;hl=en&amp;q=Buenos Aires&amp;t=&amp;z=6&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://piratebay-proxys.com/">Piratebay</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:500px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:500px;}.gmap_iframe {height:500px!important;}</style></div>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="footer-end">
+
+        <div class="social-networks">
+            <button mat-fab color="primary" aria-label="linkedin">
+                <a href="https://www.linkedin.com/in/gonzalomedina23lj" target="_target">
+                    <i class='bx bxl-linkedin bx-md'></i>
+                </a>
+            </button>
+            <button mat-fab color="primary" aria-label="github">
+                <a href="https://github.com/gonzalomedina23lj" target="_target">
+                    <i class='bx bxl-github bx-md'></i>
+                </a>
+            </button>
+            <button mat-fab color="primary" aria-label="whatsapp">
+                <a href="https://app.netlify.com/teams/gonzalomedina23lj/overview" target="_target">
+                    <i class='bx bxl-netlify bx-md'></i>
+                </a>
+            </button>
+            <button mat-fab color="primary" aria-label="whatsapp">
+                <a href="https://wa.me/1153175673" target="_target">
+                    <i class='bx bxl-whatsapp bx-md'></i>
+                </a>
+            </button>
+        </div>
+        <div class="footer-logo">
+            <img src="../../../assets/logo/logo.webp" alt="footer-logo">
         </div>
     </div>
 </div>

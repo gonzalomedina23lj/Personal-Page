@@ -2,6 +2,7 @@
 @import "../src/assets/styles/custom-typography.scss";
 @import "../src/assets/styles/custom-theme.scss";
 @include mat-core($custom-typography);
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
 
 :root{
   --primary-color: #233142;
@@ -22,7 +23,7 @@ body{
 
 .container{
   max-width: 95%;
-  padding: 60px 15px 60px 15px;
+  padding: 70px 15px 25px 15px;
   margin: auto;
 
 }
@@ -59,8 +60,7 @@ h1::before{
   left: 110px;
 } */
 
-
-h2 {
+h2{
   color: $primary-color;
   text-align: center;
 
