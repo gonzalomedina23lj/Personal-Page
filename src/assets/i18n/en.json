@@ -20,13 +20,13 @@
     },
     
     "projects":{
-        "title":"Projects",
+        "title":"PROJECTS",
 
         "movies_list":{
             "title":"Movies List",
             "description":"Take a look at the info and posters of your favourites movies and series.",
             "button_page":"PAGE",
-            "button_code":"CODE"
+            "button_code":"CODE"    
         },
 
         "musical_biographies":{
@@ -66,7 +66,7 @@
     },
     
     "footer":{
-        "title": "Contact Me",
+        "title": "CONTACT ME",
         "description":"I am interested in freelance opportunities related to web design, video games and data management. However, if you have other request or question, don’t hesitate to use the form.",
         "form":{
             "name":"Name",
