@@ -38,8 +38,7 @@ ul li{
 .about-picture{
     width: 330px;
     height: 330px;
-    border-style: solid;
-    border-color: var(--warn-color);
+    border: 1.5px solid var(--warn-color);
     position: relative;
     display: flex;
     align-items: center;
