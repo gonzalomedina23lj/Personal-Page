@@ -7,7 +7,7 @@ $custom-typography: mat-typography-config(
   $subheading-1: mat-typography-level(1rem, 1rem, 600),
   $body-1: mat-typography-level(1.4rem, 30px, 300),
   $body-2: mat-typography-level(1.6rem, 40px, 600),
-  $caption: mat-typography-level(1.1rem, 20px, 400),
+  $caption: mat-typography-level(1.1rem, 20px, 400, $letter-spacing: -0.01em),
   $button: mat-typography-level(15px, 38px, 550),
 
 );

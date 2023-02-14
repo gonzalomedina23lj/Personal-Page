@@ -52,7 +52,7 @@
 
         "qop_arcane":{
             "title":"Queen Of Pain: Arcane",
-            "description":"It doesn't matter if you don't play Dota 2, you can take a look at this great Queen Of Pain skin...'¡Make way for your Queen!'",
+            "description":"Take a look at this great Queen Of Pain skin...'¡Make way for your Queen!'",
             "button_page":"PAGE",
             "button_code":"CODE"
         },
@@ -62,7 +62,11 @@
             "description":"Discover our nearby universe through this website designed with Parallax effect.",
             "button_page":"PAGE",
             "button_code":"CODE"
-        }
+        },
+
+        "work_progress":"Work progress"
+
+
     },
     
     "footer":{
