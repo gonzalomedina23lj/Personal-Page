@@ -16,7 +16,7 @@
         "paragraph_1":"¡Hola!",
         "paragraph_2":"Mi nombre es",
         "paragraph_3":"Soy un desarrollador web que disfruta imaginando y creando sitios interactivos y dinámicos. Trabajo como docente y disfruto involucrándome con grupos que tengan un objetivo en común.",
-        "paragraph_4":"Mi visión como desarrollador está centrada en brindar soluciones y apoyo a organizaciones con proyectos en marcha y a pequeñas empresas que busquen construir su propio sitio web interactivo. Estas son algunas de las tecnologías con las que trabajé en estos últimos años:",
+        "paragraph_4":"Mi visión como desarrollador está centrada en brindar soluciones y apoyo a organizaciones con proyectos en marcha y a pequeñas empresas que busquen construir su propio sitio web desde un enfoque responsive. Estas son algunas de las tecnologías con las que trabajé en estos últimos años:",
         "paragraph_5":"Agradezco tu visita, espero que disfrutes tu estadía aquí."
     
     },
@@ -48,21 +48,21 @@
         "san_martin":{
             "title":"San Martín de los Andes",
             "description":"Uno de los sitios más hermosos de Argentina. Visita San Martín de los Andes a través de esta página.",
-            "button_page":"PAGE",
+            "button_page":"PÁGINA",
             "button_code":"CODE"
         },
 
         "qop_arcane":{
             "title":"Queen Of Pain: Arcane",
             "description":"No importa si no juegas Dota 2, puedes echar un vistazo a este gran skin de Queen Of Pain...'¡Make way for your Queen!'.",
-            "button_page":"PAGE",
+            "button_page":"PÁGINA",
             "button_code":"CODE"
         },
 
         "know_space":{
             "title":"Know Space",
             "description":"Descubre más sobre nuestro universo cercano a través de este sitio web diseñado con efecto Parallax",
-            "button_page":"PAGE",
+            "button_page":"PÁGINA",
             "button_code":"CODE"
         }
         
