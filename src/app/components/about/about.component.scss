@@ -5,8 +5,8 @@
     margin-bottom: 30px;
 }
 
-
 .about-info{
+    width: 425px;
     padding: 0 50px 0px 20px;
 }
 
@@ -36,14 +36,16 @@ ul li{
 }
 
 .about-picture{
+    width: 330px;
+    height: 330px;
+    border-style: solid;
+    border-color: var(--warn-color);
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 10px 0 30px;
-    padding-left: 20px;
+    margin: 70px 45px 0 60px;
     
-
 }
 
 
