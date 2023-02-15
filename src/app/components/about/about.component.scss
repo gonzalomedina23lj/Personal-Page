@@ -54,13 +54,13 @@ ul li{
     object-fit: contain;
     width: 400px;
     height: 300px;
+    transition: 0.6s;
 
 }
 
 
 .about-picture img:hover{
     filter: grayscale(10%);
-    transition: 0.6s;
     transform: scale(1.1);
 }
 
