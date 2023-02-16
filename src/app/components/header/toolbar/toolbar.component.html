@@ -1,17 +1,6 @@
 <mat-toolbar class="custom-toolbar" color="primary" ngxHideOnScroll [classNameWhenHidden]="'tool-hidden'">
-    <div class="toolbar-items-icons" fxHide.gt-xs fxShow.lt-xs>
-        <button mat-mini-fab color="primary" aria-label="home" (click)="goHeader()">
-            <mat-icon>home</mat-icon>
-        </button>
-        <button mat-mini-fab color="primary" aria-label="about" (click)="goAbout()">
-            <mat-icon>person</mat-icon>
-        </button>
-        <button mat-mini-fab color="primary" aria-label="projects" (click)="goProjects()">
-            <mat-icon>work_outline</mat-icon>
-        </button>
-        <button mat-mini-fab color="primary" aria-label="contact" (click)="goContact()">
-            <mat-icon>smartphone</mat-icon>
-        </button>
+    <div class="toolbar-logo" fxHide.gt-xs fxShow.lt-xs fxLayoutAlign="center">
+        <img src="../../../../assets/logo/logo_in_sm.png" alt="toolbar-logo">
     </div>
     <div class="toolbar-items-row" fxShow.gt-xs fxHide.lt-sm>
         <button (click)="goHeader()" mat-button aria-label="header">{{ 'header.toolbar.home' | translate }}</button>
@@ -21,4 +10,7 @@
     </div>
     <span class="spacer"></span>
     <app-switch-lang></app-switch-lang>
+    <div class="hamburguer" id="hamburguer" fxHide.gt-xs fxShow.lt-xs fxLayoutAlign="center">
+        <mat-icon>menu</mat-icon>
+    </div>
 </mat-toolbar>
