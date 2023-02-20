@@ -18,10 +18,10 @@ import { NgxHideOnScrollModule } from 'ngx-hide-on-scroll';
 
 //Angular Material
 import { MatToolbarModule } from '@angular/material/toolbar';
-
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
-
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatGridListModule } from '@angular/material/grid-list';
@@ -32,6 +32,8 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './components/about/about.component';
+import { SidenavComponent } from './components/header/sidenav/sidenav.component';
+
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -49,6 +51,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ProjectsComponent,
     ContactComponent,
     AboutComponent,
+    SidenavComponent,
   ],
   imports: [
     BrowserModule,
@@ -58,6 +61,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
+    MatSidenavModule,
+    MatListModule,
     LayoutModule,
     FlexLayoutModule,
     MatGridListModule,

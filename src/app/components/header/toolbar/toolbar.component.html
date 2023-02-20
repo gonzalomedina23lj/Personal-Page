@@ -1,16 +1,30 @@
 <mat-toolbar class="custom-toolbar" color="primary" ngxHideOnScroll [classNameWhenHidden]="'tool-hidden'">
-    <div class="toolbar-logo" fxHide.gt-xs fxShow.lt-xs fxLayoutAlign="center">
-        <img src="../../../../assets/logo/logo_in_sm.png" alt="toolbar-logo">
-    </div>
-    <div class="toolbar-items-row" fxShow.gt-xs fxHide.lt-sm>
-        <button (click)="goHeader()" mat-button aria-label="header">{{ 'header.toolbar.home' | translate }}</button>
-        <button (click)="goAbout()" mat-button aria-label="about">{{ 'header.toolbar.about' | translate }}</button>
-        <button (click)="goProjects()" mat-button aria-label="projects">{{ 'header.toolbar.projects' | translate }}</button>
-        <button (click)="goContact()" mat-button aria-label="contact">{{ 'header.toolbar.contact' | translate }}</button>
-    </div>
-    <span class="spacer"></span>
-    <app-switch-lang></app-switch-lang>
-    <div class="hamburguer" id="hamburguer" fxHide.gt-xs fxShow.lt-xs fxLayoutAlign="center">
+    
+    <button mat-icon-button class="menu-button" fxHide.lt-xl fxShow.lt-sm *ngIf="showMenu" (click)="showSideMenu()">
         <mat-icon>menu</mat-icon>
+    </button>
+
+    <button mat-icon-button class="reply-button" fxHide.lt-xl fxShow.lt-sm (click)="hideSideMenu()" *ngIf="showArrow">
+        <mat-icon>reply</mat-icon>
+    </button>
+
+    <div class="sidenav-menu" *ngIf="showSide">
+        <div class="sidenav-items">
+            <button routerLink="/home" (click)="goHeader()" mat-button aria-label="header">{{ 'header.toolbar.home' | translate }}</button>
+            <button routerLink="/about" (click)="goAbout()" mat-button aria-label="about">{{ 'header.toolbar.about' | translate }}</button>
+            <button routerLink="/projects" (click)="goProjects()" mat-button aria-label="projects">{{ 'header.toolbar.projects' | translate }}</button>
+            <button routerLink="/contact" (click)="goContact()" mat-button aria-label="contact">{{ 'header.toolbar.contact' | translate }}</button>
+        </div>
     </div>
+
+    <div class="toolbar-items-row" fxShow.gt-xs fxHide.lt-sm>
+        <button routerLink="/home" (click)="goHeader()" mat-button aria-label="header">{{ 'header.toolbar.home' | translate }}</button>
+        <button routerLink="/about" (click)="goAbout()" mat-button aria-label="about">{{ 'header.toolbar.about' | translate }}</button>
+        <button routerLink="/projects" (click)="goProjects()" mat-button aria-label="projects">{{ 'header.toolbar.projects' | translate }}</button>
+        <button routerLink="/contact" (click)="goContact()" mat-button aria-label="contact">{{ 'header.toolbar.contact' | translate }}</button>
+    </div>
+
+    <span class="spacer"></span>
+
+    <app-switch-lang></app-switch-lang>
 </mat-toolbar>
