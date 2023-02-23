@@ -1,14 +1,14 @@
 <mat-toolbar class="custom-toolbar" color="primary" ngxHideOnScroll [classNameWhenHidden]="'tool-hidden'">
     
-    <button mat-icon-button class="menu-button" fxHide.lt-xl fxShow.lt-sm *ngIf="showMenu" (click)="showSideMenu()">
+    <button mat-icon-button class="menu-button" fxHide fxShow.lt-sm *ngIf="showMenu" (click)="showSideMenu()">
         <mat-icon>menu</mat-icon>
     </button>
 
-    <button mat-icon-button class="reply-button" fxHide.lt-xl fxShow.lt-sm (click)="hideSideMenu()" *ngIf="showArrow">
+    <button mat-icon-button class="reply-button" fxHide fxShow.lt-sm *ngIf="showArrow" (click)="hideSideMenu()">
         <mat-icon>reply</mat-icon>
     </button>
 
-    <div class="sidenav-menu" *ngIf="showSide">
+    <div class="sidenav-menu open-close-container" *ngIf="showSide" [@openClose]="showSide">
         <div class="sidenav-items">
             <button routerLink="/home" (click)="goHeader()" mat-button aria-label="header">{{ 'header.toolbar.home' | translate }}</button>
             <button routerLink="/about" (click)="goAbout()" mat-button aria-label="about">{{ 'header.toolbar.about' | translate }}</button>

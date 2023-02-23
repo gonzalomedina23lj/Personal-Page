@@ -1,14 +1,6 @@
 .hero_parallax{
     height: 100%;
     position: relative;
-/*     position: relative;
-    background-image:url(../../../../assets/images/hero_wide_7.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    height: 100%;
-    filter: blur(4.5px);
-    filter: grayscale(60%); */
 }
 
 .hero_parallax::after{
@@ -34,14 +26,9 @@
 }
 
 
-@media (max-width: 600px) {
-    .hero_parallax{
-/*         background-image:url(../../../../assets/images/hero_1.png);
-        height: 100vh;
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        filter: grayscale(75%); */
+@media (max-width: 992px) {
+    #logo{
+        width: calc(34vw + 235px);
     }
 
 }

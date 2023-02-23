@@ -1,14 +1,26 @@
+import { animate, state, style, transition, trigger } from '@angular/animations';
 import { ViewportScroller } from '@angular/common';
-import { Component, ElementRef, HostBinding, HostListener, OnInit, ViewChild } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-toolbar',
   templateUrl: './toolbar.component.html',
-  styleUrls: ['./toolbar.component.scss']
+  styleUrls: ['./toolbar.component.scss'],
+  animations: [
+    trigger('openClose', [
+      transition(':enter', [
+          style({opacity: 0}),
+          animate('0.14s', style({opacity: 1}))
+      ]),
+      transition(':leave', [
+          style({opacity: 1}),
+          animate('0.14s', style({opacity: 0}))
+      ])
+  ])]
+
 })
 
 export class ToolbarComponent implements OnInit {
-
   showMenu:boolean = true;
   showArrow:boolean = false;
   showSide: boolean = false;
@@ -22,7 +34,7 @@ export class ToolbarComponent implements OnInit {
   showSideMenu(){
     this.showMenu = false;
     this.showArrow = !this.showArrow;
-    this.showSide = !this.showSide;
+    this.showSide= !this.showSide;
   };
 
   @HostListener('window:scroll', ['$event'])
