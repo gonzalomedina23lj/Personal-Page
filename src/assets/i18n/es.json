@@ -8,6 +8,16 @@
             "about":"Sobre Mi",
             "projects":"Proyectos",
             "contact":"Contacto"
+        },
+        "dinamic_text":{
+            "think":"Piensa",
+            "work":"Trabaja",
+            "phrase_1":"como un usuario",
+            "phrase_2":"como un desarrollador",
+            "word_1":"Creativo",
+            "word_2":"Persistente",
+            "word_3":"Original",
+            "word_4":"Comprometido"
         }
 
     },

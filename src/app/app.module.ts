@@ -32,7 +32,6 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './components/about/about.component';
-import { SidenavComponent } from './components/header/sidenav/sidenav.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -51,7 +50,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     ProjectsComponent,
     ContactComponent,
     AboutComponent,
-    SidenavComponent,
   ],
   imports: [
     BrowserModule,

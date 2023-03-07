@@ -21,20 +21,20 @@ import { Component, HostListener, OnInit } from '@angular/core';
 })
 
 export class ToolbarComponent implements OnInit {
-  showMenu:boolean = true;
-  showArrow:boolean = false;
+  showMenu: boolean = true;
+  showArrow: boolean = false;
   showSide: boolean = false;
 
   hideSideMenu(){
     this.showArrow = false;
-    this.showSide= false;
+    this.showSide = false;
     this.showMenu = true;
   };
 
   showSideMenu(){
     this.showMenu = false;
     this.showArrow = !this.showArrow;
-    this.showSide= !this.showSide;
+    this.showSide = !this.showSide;
   };
 
   @HostListener('window:scroll', ['$event'])

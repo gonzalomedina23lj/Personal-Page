@@ -1,7 +1,15 @@
-<div class="hero_parallax">
-    <img src="../../../../assets/logo/logo_sl_xl.webp" alt="logo" id="logo">
-    <!-- <img src="../../../../assets/images/angular_parallax.png" alt="" id="angular">
-    <img src="../../../../assets/images/angular_parallax.png" alt="" id="angular2">
-    <img src="../../../../assets/images/javascript_parallax.png" alt="" id="javascript" alt="">
-    <img src="" alt=""> -->
+<div class="header-content" fxLayout="column">
+    <div class="logo-box">
+        <img src="../../../../assets/logo/logo_sl_xl.webp" alt="logo" id="logo">
+    </div>    
+
+    <div class="dynamic-text">
+<!--         <p class="phrase-1">{{ firstPhrase | translate }}</p>
+        <p class="phrase-2">{{ secondPhrase | translate }}</p> -->
+    </div>
+    <div class="phrase-box">
+        <h1 class="first-phrase"><span>{{ thinkWord | translate }}</span> {{ firstPhrase | translate }}</h1>
+        <h1 class="second-phrase"><span>{{ workWord | translate }}</span> {{ secondPhrase | translate }}</h1>
+    </div>
+    <div class="arrow-section"></div>  
 </div>

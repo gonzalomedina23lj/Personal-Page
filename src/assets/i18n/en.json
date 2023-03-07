@@ -8,7 +8,18 @@
             "about":"About",
             "projects":"Projects",
             "contact":"Contact"
+        },
+        "dinamic_text":{
+            "think":"Think",
+            "work":"Work",
+            "phrase_1":"like an user",
+            "phrase_2":"like a programmer",
+            "word_1":"Creative",
+            "word_2":"Persistent",
+            "word_3":"Original",
+            "word_4":"Engaged"
         }
+
     },
     
     "about":{
