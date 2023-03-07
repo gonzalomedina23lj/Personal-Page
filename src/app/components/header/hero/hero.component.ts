@@ -1,4 +1,5 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, Input, OnDestroy, OnInit } from '@angular/core';
+import { ToolbarComponent } from '../toolbar/toolbar.component';
 
 
 @Component({
@@ -20,8 +21,11 @@ export class HeroComponent implements OnInit {
 
   
 
+  
+
   constructor() { }
 
+  
   ngOnInit() {
     this.thinkWord = this.textList[0];
     this.workWord = this.textList[1];
