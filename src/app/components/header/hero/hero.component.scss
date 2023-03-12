@@ -23,7 +23,13 @@
     overflow: hidden;
 }
 
+@keyframes logo-enter{
+    0%{top: -25%;}
+    100%{top: 75%;}
+}
+
 #logo{
+    animation: logo-enter 6s ease;
     margin-top: -100px;
     width: calc(26vw + 200px);
     height: auto;
@@ -50,12 +56,12 @@
       text-shadow: none;
     }
     to {
-      text-shadow: 1.5px 1.5px 2px var(--accent-color);
+      text-shadow: 1.2px 1.2px 1.2px var(--accent-color);
     }
 }
 
 .phrase-box{
-    height: 20vh;
+    height: 30vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -77,8 +83,8 @@
 
 
 .first-phrase{
-    animation: phrase-animation 6s alternate;
-    text-shadow: 2px 2px 3px var(--warn-color);
+    animation: phrase-animation 7s alternate;
+    text-shadow: 1.5px 1.5px 2.2px var(--warn-color);
     margin-right: 15% !important;
 }
 
@@ -112,7 +118,7 @@
 .arrow-section{
     width: 50px;
     height: 50px;
-    margin-top: 10%;
+    margin-top: 1em;
     animation: bounce 1.5s infinite;
     z-index: 9999;
 }
@@ -150,12 +156,17 @@
         margin-left: 15% !important;
     }
 
+    .arrow-section{
+        margin-top: 10%;
+
+    }
+
 }
 
 @media (max-width: 576px) {
 
     .phrase-box h1{
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
     .first-phrase{
