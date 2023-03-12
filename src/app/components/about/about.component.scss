@@ -38,7 +38,7 @@ ul li{
 .about-picture{
     width: 330px;
     height: 330px;
-    border: 1.5px solid var(--warn-color);
+    border: 3.5px solid var(--warn-color);
     position: relative;
     display: flex;
     align-items: center;
@@ -55,6 +55,7 @@ ul li{
     width: 400px;
     height: 300px;
     transition: 0.6s;
+    margin-left: 16px;
 
 }
 
