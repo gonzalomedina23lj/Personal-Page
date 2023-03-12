@@ -11,5 +11,8 @@
         <h1 class="first-phrase"><span>{{ thinkWord | translate }}</span> {{ firstPhrase | translate }}</h1>
         <h1 class="second-phrase"><span>{{ workWord | translate }}</span> {{ secondPhrase | translate }}</h1>
     </div>
-    <div class="arrow-section"></div>
+    <button mat-icon-button class="arrow-section" (click)="goAbout()">
+        <i class='bx bx-chevron-down bx-lg'></i>
+    </button>
+
 </div>

@@ -1,6 +1,6 @@
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { ViewportScroller } from '@angular/common';
-import { Component, EventEmitter, HostListener, OnInit } from '@angular/core';
+import { Component, EventEmitter, HostListener, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-toolbar',
@@ -21,12 +21,6 @@ import { Component, EventEmitter, HostListener, OnInit } from '@angular/core';
 })
 
 export class ToolbarComponent implements OnInit {
-
-  functionEvent = new EventEmitter();
-
-  emitEvent(){
-    this.functionEvent.emit();
-  }
 
   showMenu: boolean = true;
   showArrow: boolean = false;
@@ -53,7 +47,7 @@ export class ToolbarComponent implements OnInit {
   }
  
   
-  constructor(private scroller:ViewportScroller ) {}
+  constructor(private scroller:ViewportScroller) {}
 
 
 

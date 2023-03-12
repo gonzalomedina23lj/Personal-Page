@@ -1,4 +1,5 @@
-import { Component, Input, OnDestroy, OnInit } from '@angular/core';
+import { Component, Input, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
 import { ToolbarComponent } from '../toolbar/toolbar.component';
 
 
@@ -20,13 +21,12 @@ export class HeroComponent implements OnInit {
   secondPhrase!: string;
 
   
+  constructor(private scroller:ViewportScroller) {
 
-  
+   }
 
-  constructor() { }
-
-  
   ngOnInit() {
+
     this.thinkWord = this.textList[0];
     this.workWord = this.textList[1];
     this.firstWord = this.textList[4];
@@ -35,6 +35,10 @@ export class HeroComponent implements OnInit {
     this.firstPhrase = this.textList[2];
     this.secondPhrase = this.textList[3];
 
+}
+
+goAbout() {
+  document.getElementById('about')?.scrollIntoView({behavior:"smooth"});
 }
   
 }
