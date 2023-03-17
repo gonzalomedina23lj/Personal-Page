@@ -1,6 +1,18 @@
 import { Card } from './card';
 
 export const CARDS:Card[] = [
+
+    {
+        Title: 'Personal Page',
+        SubTitle: 'Angular',
+        Video: '../../../../assets/videos/personal_page.mp4',
+        Content: 'projects.personal_page.description',
+        Progress: 90,
+        ButtonText: 'projects.personal_page.button_page',
+        PageButton: 'https://gonzalomedinadeveloper.netlify.app/home',
+        CodeButton:'https://github.com/gonzalomedina23lj/Personal-Page'
+    },
+
     {
         Title: 'Movies List',
         SubTitle: 'Angular',
@@ -12,7 +24,7 @@ export const CARDS:Card[] = [
         CodeButton:'https://github.com/gonzalomedina23lj/Page-Movies_List'
     },
 
-    {
+/*     {
         Title: 'Musical Biographies',
         SubTitle: 'Angular',
         Video: '../../../../assets/videos/movies_list.mp4',
@@ -21,18 +33,7 @@ export const CARDS:Card[] = [
         ButtonText: 'projects.musical_biographies.button_page',
         PageButton: 'xxx',
         CodeButton:'cccc'
-    },
-
-    {
-        Title: 'ElfOrc Battle',
-        SubTitle: 'Python',
-        Video: '../../../../assets/videos/elforc_battle.mp4',
-        Content: 'projects.elforc_battle.description',
-        Progress: 90,
-        ButtonText: 'projects.elforc_battle.button_page',
-        PageButton: 'xxx',
-        CodeButton:'cccc'
-    },
+    }, */
 
     {
         Title: 'Queen of Pain: Arcane',
@@ -65,6 +66,17 @@ export const CARDS:Card[] = [
         ButtonText: 'projects.know_space.button_page',
         PageButton: 'https://gonzalomedina23lj.github.io/Page-Space',
         CodeButton:'https://github.com/gonzalomedina23lj/Page-Space',
+    },
+
+    {
+        Title: 'ElfOrc Battle',
+        SubTitle: 'Python',
+        Video: '../../../../assets/videos/elforc_battle.mp4',
+        Content: 'projects.elforc_battle.description',
+        Progress: 90,
+        ButtonText: 'projects.elforc_battle.button_page',
+        PageButton: 'xxx',
+        CodeButton:'https://github.com/gonzalomedina23lj/Game-ElfOrc_Battle'
     }
 
 

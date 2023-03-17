@@ -13,11 +13,7 @@
             "think":"Piensa",
             "work":"Trabaja",
             "phrase_1":"como usuario",
-            "phrase_2":"como programador",
-            "word_1":"Creativo",
-            "word_2":"Persistente",
-            "word_3":"Original",
-            "word_4":"Comprometido"
+            "phrase_2":"como programador"
         }
 
     },
@@ -46,6 +42,13 @@
             "description":"Conoce más sobre tus bandas favoritas y descubre nueva música para tus oídos.",
             "button_page":"PÁGINA",
             "button_code":"CÓDIGO"
+        },
+
+        "personal_page":{
+            "title":"Mi Página Personal",
+            "description":"El lugar en el que te encuentras. Sí te gusta el sitio, puedes ver como fue construido.",
+            "button_page":"PÁGINA",
+            "button_code":"CODE"
         },
 
         "elforc_battle":{

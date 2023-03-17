@@ -13,11 +13,7 @@
             "think":"Think",
             "work":"Work",
             "phrase_1":"like an user",
-            "phrase_2":"like a programmer",
-            "word_1":"Creative",
-            "word_2":"Persistent",
-            "word_3":"Original",
-            "word_4":"Engaged"
+            "phrase_2":"like a programmer"
         }
 
     },
@@ -43,6 +39,13 @@
         "musical_biographies":{
             "title":"Musical Biographies",
             "description":"Know more about your favourites bands and explore new music to your ears.",
+            "button_page":"PAGE",
+            "button_code":"CODE"
+        },
+
+        "personal_page":{
+            "title":"Personal Page",
+            "description":"The place where you are. If you like the site you can see how it was built.",
             "button_page":"PAGE",
             "button_code":"CODE"
         },
