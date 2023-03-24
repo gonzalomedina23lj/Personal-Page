@@ -13,11 +13,13 @@
 .hi{
     font-size: 34px;
     color: var(--warn-color) !important;
+    text-shadow: 0px 1px 8px var(--warn-color) !important;
 }
 
 .about-info p{
-    text-align: left;
     color: var(--accent-color);
+    text-shadow: 0px 0px 2px var(--accent-color);
+    text-align: left;
 }
 
 ul {
