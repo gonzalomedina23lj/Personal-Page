@@ -75,7 +75,7 @@ export const CARDS:Card[] = [
         Content: 'projects.elforc_battle.description',
         Progress: 90,
         ButtonText: 'projects.elforc_battle.button_page',
-        PageButton: 'xxx',
+        PageButton: 'https://drive.google.com/drive/folders/1IV7M6Ipfnpi8dIZ44MYsJPCFMTFqaCYm?usp=share_link',
         CodeButton:'https://github.com/gonzalomedina23lj/Game-ElfOrc_Battle'
     }
 
