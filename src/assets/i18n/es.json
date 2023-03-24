@@ -53,7 +53,7 @@
 
         "elforc_battle":{
             "title":"ElfOrc Battle",
-            "description":"Un juego por el futuro de la tierra media. Intenta ayudar al elfo a destruir la amenaza orca pero recuerda, por el momento es solo para ordenador.",
+            "description":"Un juego por el futuro de la tierra media. Ayuda a Eärwen a destruir la amenaza orca (solo para ordenador). ",
             "button_page":"DESCARGAR",
             "button_code":"CÓDIGO"
         },
@@ -79,7 +79,7 @@
             "button_code":"CODE"
         },
 
-        "work_progress":"Progreso de trabajo"
+        "work_progress":"DESARROLLO"
         
     },
 

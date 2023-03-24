@@ -7,7 +7,7 @@ export const CARDS:Card[] = [
         SubTitle: 'Angular',
         Video: '../../../../assets/videos/personal_page.mp4',
         Content: 'projects.personal_page.description',
-        Progress: 90,
+        Progress: 100,
         ButtonText: 'projects.personal_page.button_page',
         PageButton: 'https://gonzalomedinadeveloper.netlify.app/home',
         CodeButton:'https://github.com/gonzalomedina23lj/Personal-Page'
