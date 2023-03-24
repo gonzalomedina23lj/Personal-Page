@@ -52,8 +52,8 @@
 
         "elforc_battle":{
             "title":"ElfOrc Battle",
-            "description":"A game for the future of Middle Earth. Will Eärwen be able to end the Orc Threat?",
-            "button_page":"PLAY",
+            "description":"A game for the future of Middle Earth. Will Eärwen be able to end the Orc Threat?. Try it but remember, at the moment its only for desktop.",
+            "button_page":"DOWNLOAD",
             "button_code":"CODE"
         },
 
