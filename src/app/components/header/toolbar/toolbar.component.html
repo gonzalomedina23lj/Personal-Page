@@ -1,10 +1,10 @@
 <mat-toolbar class="custom-toolbar" color="primary" ngxHideOnScroll [classNameWhenHidden]="'tool-hidden'">
     
-    <button mat-icon-button class="menu-button" fxHide fxShow.lt-sm *ngIf="showMenu" (click)="showSideMenu()">
+    <button aria-label="menu-button" mat-icon-button class="menu-button" fxHide fxShow.lt-sm *ngIf="showMenu" (click)="showSideMenu()">
         <mat-icon>menu</mat-icon>
     </button>
 
-    <button mat-icon-button class="reply-button" fxHide fxShow.lt-sm *ngIf="showArrow" (click)="hideSideMenu()">
+    <button mat-icon-button aria-label="reply-button" class="reply-button" fxHide fxShow.lt-sm *ngIf="showArrow" (click)="hideSideMenu()">
         <mat-icon>reply</mat-icon>
     </button>
 
