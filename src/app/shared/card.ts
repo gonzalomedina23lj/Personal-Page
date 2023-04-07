@@ -3,6 +3,9 @@ export interface Card{
     SubTitle: string;
     playButton: string;
     pauseButton: string;
+    isPlaying: boolean;
+    showPlay: boolean;
+    showPause: boolean;
     Video: string;
     Content: string;
     Progress: number;

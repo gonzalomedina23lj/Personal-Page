@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Card } from 'src/app/shared/card';
 import { CARDS } from 'src/app/shared/cards';
 
 @Component({
@@ -11,11 +12,14 @@ import { CARDS } from 'src/app/shared/cards';
 
 export class ProjectsComponent implements OnInit{
 
-
   showPlay:boolean = true;
   showPause:boolean = false;
   @ViewChild('projectvideo') projectvideo!: ElementRef;
   @ViewChild('playerbutton') playerbutton!: ElementRef;
+
+  getVideoElement(card: Card): HTMLVideoElement | null {
+    return document.getElementById(`projectvideo-${card.Title}`) as HTMLVideoElement;
+  }
   
 
   
@@ -29,22 +33,27 @@ export class ProjectsComponent implements OnInit{
   
   ngOnInit(): void {}
 
-  playVideo() {
-    this.showPlay = false;
-    this.showPause = true;
-    this.projectvideo.nativeElement.play();
-
+  playVideo(card: Card) {
+    card.isPlaying = true;
+    const video = this.getVideoElement(card);
+    if (video) {
+      video.play();
+      card.showPause = true;
+      card.showPlay = false;
+    }
   }
   
-  pauseVideo() {
-    this.showPause = false;
-    this.showPlay = true;
-    this.projectvideo.nativeElement.pause();
-
+  pauseVideo(card: Card) {
+    card.isPlaying = false;
+    const video = this.getVideoElement(card);
+    if (video) {
+      video.pause();
+      card.showPause = false;
+      card.showPlay = true;
+    }
   }
 
 }
-
 
  
 
