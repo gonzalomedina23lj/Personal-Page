@@ -5,7 +5,7 @@ export const CARDS:Card[] = [
     {
         Title: 'Personal Page',
         SubTitle: 'Angular',
-        Video: '../../../../assets/videos/personal_page.mp4',
+        Video: '../../../../assets/videos/personal_page.mp4#t=0.001',
         playButton: '../../../../assets/images/play_button.png',
         pauseButton: '../../../../assets/images/pause_button.png',
         isPlaying: false,
