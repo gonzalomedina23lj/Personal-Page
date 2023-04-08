@@ -14,8 +14,9 @@ export class ProjectsComponent implements OnInit{
 
   showPlay:boolean = true;
   showPause:boolean = false;
-  @ViewChild('projectvideo') projectvideo!: ElementRef;
-  @ViewChild('playerbutton') playerbutton!: ElementRef;
+  isTranslate:boolean = false;
+  @ViewChild('projectvideo', {static: false}) projectvideo!: ElementRef;
+  @ViewChild('playerbutton', {static: false}) playerbutton!: ElementRef;
 
   getVideoElement(card: Card): HTMLVideoElement | null {
     return document.getElementById(`projectvideo-${card.Title}`) as HTMLVideoElement;
@@ -38,6 +39,8 @@ export class ProjectsComponent implements OnInit{
     const video = this.getVideoElement(card);
     if (video) {
       video.play();
+      this.isTranslate = true;
+      video.style.opacity="1";
       card.showPause = true;
       card.showPlay = false;
     }
@@ -47,7 +50,9 @@ export class ProjectsComponent implements OnInit{
     card.isPlaying = false;
     const video = this.getVideoElement(card);
     if (video) {
+      this.isTranslate = false;
       video.pause();
+      video.style.opacity="0.4";
       card.showPause = false;
       card.showPlay = true;
     }

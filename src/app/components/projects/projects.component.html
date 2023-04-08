@@ -7,8 +7,8 @@
           <mat-card-title class="mat-title">{{ card.Title }}</mat-card-title>
           <mat-card-subtitle class="custom-mat-card-subtitle mat-subheading-1">{{ card.SubTitle }}</mat-card-subtitle>
         </mat-card-header>
-        <video #projectvideo id="projectvideo-{{card.Title}}" src={{card.Video}} type="video/mp4" alt="project-video" class=mat-card-video loop muted="muted" playsinline></video>
-        <button class="player-button" #playerbutton type="button">
+        <video #projectvideo id="projectvideo-{{card.Title}}" src={{card.Video}} type="video/mp4" alt="project-video" class=mat-card-video loop muted="muted" playsinline preload="auto"></video>
+        <button class="player-button" #playerbutton type="button" [ngClass]="{'player-button-translate': isTranslate}">
           <img class="player-icon" id="play-icon" src={{card.playButton}} alt="play-button" *ngIf="card.showPlay && !card.isPlaying" (click)="playVideo(card)">
           <img class="player-icon" id="pause-icon" src={{card.pauseButton}} alt="pause-button" *ngIf="card.showPause && card.isPlaying" (click)="pauseVideo(card)">
         </button>

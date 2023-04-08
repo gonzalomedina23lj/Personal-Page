@@ -19,25 +19,48 @@
 
 .custom-mat-card-subtitle{
     color: var(--warn-color);
+    
+    
 }
 
 .player-button{
     position: absolute;
     z-index: 999;
-    top: 40%;
-    left: 50%;
+    top: 18%;
+    right: -5%;
     width: 55px;
     height: 55px;
+    margin-right: 15px;
     transform: translate(-50%, -50%);
     background-color: var(--second-color);
-    border-color: var(--warn-color);
-    box-shadow: 0px 1px 8px var(--warn-color);
+    border-color: var(--accent-color);
+    box-shadow: 0px 1px 8px var(--accent-color);
     opacity: 1;
     border-radius: 10%;
     cursor:pointer;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.player-button-translate{
+    position: absolute;
+    z-index: 999;
+    top: 18%;
+    right: -5%;
+    width: 55px;
+    height: 55px;
+    transform: translate(-50%, -50%);
+    background-color: var(--second-color);
+    border-color: var(--warn-color);
+    box-shadow: 0px 1px 8px var(--warn-color);
+    opacity: 0.4;
+    border-radius: 10%;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .player-button img{
@@ -52,8 +75,6 @@
     
 }
 
-
-
 .mat-card-video{
     width: calc(100% + 32px);
     margin: 0 -16px 16px -16px;
@@ -62,30 +83,23 @@
     min-height: 40vh;
     object-fit: cover;
     /* cursor: pointer; */
-    filter: grayscale(25%);
-    opacity: 0.6;
+    filter: grayscale(10%);
+    opacity: 0.4;
     
 }
-
-/* .mat-card-video:hover{
-    filter: grayscale(0%);
-    z-index: 1000;
-    
-} */
 
 .custom-card-content{
     height: 50px;
 }
 
 .custom-card-content p{
-    text-shadow: 1px 0px 8px #E3E3E3;
+    text-shadow: 0.5px 0px 1px var(--accent-color);
 }
 
 .work-progress{
     font-size: 14px;
     font-weight: 700;
     color: var(--primary-color);
-    /* border-top: 1px solid var(--warn-color); */
     background-image: linear-gradient(to right, var(--warn-color) 0%, #9c594d 100%);
     border-radius: 110px;
     padding: 1px 2% 2px 2%;
@@ -104,6 +118,16 @@ mat-card-actions{
     font-weight: 600;
 }
 
+@media (max-width: 960px)  {
+    .player-button{
+        width: 48px;
+        height: 48px;
+        top: 17%;
+        right: -3%;
+        margin-right: 5px;
+    }
+}
+
 
 @media (max-width: 599px)  {
     .custom_mat-card-content{
@@ -111,4 +135,12 @@ mat-card-actions{
         height: fit-content;
     
     }
+
+    .player-button{
+        top: 19%;
+
+    }
+
 }
+
+
