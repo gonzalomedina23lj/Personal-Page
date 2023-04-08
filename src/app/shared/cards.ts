@@ -21,7 +21,7 @@ export const CARDS:Card[] = [
     {
         Title: 'Movies List',
         SubTitle: 'Angular',
-        Video: '../../../../assets/videos/movies_list.mp4',
+        Video: '../../../../assets/videos/movies_list.mp4#t=0.001',
         playButton: '../../../../assets/images/play_button.png',
         pauseButton: '../../../../assets/images/pause_button.png',
         isPlaying: false,
@@ -48,7 +48,7 @@ export const CARDS:Card[] = [
     {
         Title: 'Queen of Pain: Arcane',
         SubTitle: 'HTML,CSS, JavaScript',
-        Video: '../../../../assets/videos/qop_arcane.mp4',
+        Video: '../../../../assets/videos/qop_arcane.mp4#t=0.001',
         playButton: '../../../../assets/images/play_button.png',
         pauseButton: '../../../../assets/images/pause_button.png',
         isPlaying: false,
@@ -64,7 +64,7 @@ export const CARDS:Card[] = [
     {
         Title: 'San Martín de los Andes',
         SubTitle: 'HTML,CSS, JavaScript',
-        Video: '../../../../assets/videos/san_martin.mp4',
+        Video: '../../../../assets/videos/san_martin.mp4#t=0.001',
         playButton: '../../../../assets/images/play_button.png',
         pauseButton: '../../../../assets/images/pause_button.png',
         isPlaying: false,
@@ -80,7 +80,7 @@ export const CARDS:Card[] = [
     {
         Title: 'Know Space',
         SubTitle: 'HTML,CSS, JavaScript',
-        Video: '../../../../assets/videos/know_space.mp4',
+        Video: '../../../../assets/videos/know_space.mp4#t=0.001',
         playButton: '../../../../assets/images/play_button.png',
         pauseButton: '../../../../assets/images/pause_button.png',
         isPlaying: false,
@@ -96,7 +96,7 @@ export const CARDS:Card[] = [
     {
         Title: 'ElfOrc Battle',
         SubTitle: 'Python',
-        Video: '../../../../assets/videos/elforc_battle.mp4',
+        Video: '../../../../assets/videos/elforc_battle.mp4#t=0.001',
         playButton: '../../../../assets/images/play_button.png',
         pauseButton: '../../../../assets/images/pause_button.png',
         isPlaying: false,
