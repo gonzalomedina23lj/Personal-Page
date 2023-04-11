@@ -33,6 +33,13 @@
     margin-right: 80px;
 }
 
+.social-networks img {
+    width: 24px;
+    height: 24px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
 .social-networks button{
     margin-right: 10px;
 }

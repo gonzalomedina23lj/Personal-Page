@@ -1,7 +1,6 @@
 <div class="contact" id="contact">
     <p class="mat-caption">{{ 'footer.description' | translate }}</p>
     <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm.value); contactForm.resetForm()">
-        
         <label for="name">{{ 'footer.form.name' | translate }}</label>
         <input
             type="text" id="name" name="name" #name="ngModel" [(ngModel)]="model.name"

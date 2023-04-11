@@ -2,7 +2,6 @@
 @import "../src/assets/styles/custom-typography.scss";
 @import "../src/assets/styles/custom-theme.scss";
 @include mat-core($custom-typography);
-@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
 
 :root{
   --primary-color: #233142;
