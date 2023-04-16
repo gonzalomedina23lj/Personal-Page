@@ -1,21 +1,105 @@
 {
-    "en_button": "Español",
+
+    "page_title": "Gonzalo Medina | Desarrollador Web",
     
     "header":{
-        "webtitle": "Gonzalo Medina | Desarrollador Web",
-        "title": "Bienvenido a mi Página Personal",
-        "subtitle": "Aquí conocerás quien soy"
+        "toolbar":{
+            "home":"Home",
+            "about":"Sobre Mi",
+            "projects":"Proyectos",
+            "contact":"Contacto"
+        },
+        "dinamic_text":{
+            "think":"Piensa",
+            "work":"Trabaja",
+            "phrase_1":"como usuario",
+            "phrase_2":"como programador"
+        }
 
     },
 
-    "biography": "Trabajé mucho y estudié más",
+    "about":{
+        "paragraph_1":"¡Hola!",
+        "paragraph_2":"Mi nombre es",
+        "paragraph_3":"Soy un desarrollador web que disfruta imaginando y creando sitios interactivos y dinámicos. Trabajo como docente y disfruto involucrándome con grupos que tengan un objetivo en común.",
+        "paragraph_4":"Mi visión como desarrollador está centrada en brindar soluciones y apoyo a organizaciones con proyectos en marcha y a pequeñas empresas que busquen construir su propio sitio web desde un enfoque responsive. Estas son algunas de las tecnologías con las que trabajé en estos últimos años:",
+        "paragraph_5":"Agradezco tu visita, espero que disfrutes tu estadía aquí."
     
+    },
+
     "projects":{
-        "description": "Echá un vistazo a mi porfolio de trabajos"
-    }, 
-    
+        "title":"PROYECTOS",
+
+        "movies_list":{
+            "title":"Movies List",
+            "description":"Visualiza la información y los posters de tus peliculas y series favoritas",
+            "button_page":"PÁGINA",
+            "button_code":"CÓDIGO"
+        },
+
+        "musical_biographies":{
+            "title":"Musical Biographies",
+            "description":"Conoce más sobre tus bandas favoritas y descubre nueva música para tus oídos.",
+            "button_page":"PÁGINA",
+            "button_code":"CÓDIGO"
+        },
+
+        "personal_page":{
+            "title":"Mi Página Personal",
+            "description":"El lugar en el que te encuentras. Sí te gusta el sitio, puedes ver como fue construido.",
+            "button_page":"PÁGINA",
+            "button_code":"CODE"
+        },
+
+        "elforc_battle":{
+            "title":"ElfOrc Battle",
+            "description":"Un juego por el futuro de la tierra media. Ayuda a Eärwen a destruir la amenaza orca (solo para ordenador). ",
+            "button_page":"DESCARGAR",
+            "button_code":"CÓDIGO"
+        },
+
+        "san_martin":{
+            "title":"San Martín de los Andes",
+            "description":"Uno de los sitios más hermosos de Argentina. Visita San Martín de los Andes a través de esta página.",
+            "button_page":"PÁGINA",
+            "button_code":"CODE"
+        },
+
+        "qop_arcane":{
+            "title":"Queen Of Pain: Arcane",
+            "description":"No importa si no juegas Dota 2, puedes echar un vistazo a este gran skin de Queen Of Pain...'¡Make way for your Queen!'.",
+            "button_page":"PÁGINA",
+            "button_code":"CODE"
+        },
+
+        "know_space":{
+            "title":"Know Space",
+            "description":"Descubre más sobre nuestro universo cercano a través de este sitio web diseñado con efecto Parallax",
+            "button_page":"PÁGINA",
+            "button_code":"CODE"
+        },
+
+        "work_progress":"DESARROLLO"
+        
+    },
+
     "footer":{
-        "number": "1153175673"
+        "title": "CONTÁCTAME",
+
+        "description":"Estoy interesado en oportunidades freelance vinculadas a trabajos de diseño web, desarrollo de videojuegos y manejo de datos. Sin embargo, si tienes otra petición o pregunta, no dudes en completar el formulario.",
+
+        "form":{
+            "name":"Nombre",
+            "email":"Email",
+            "subject":"Asunto",
+            "message":"Mensaje",
+            "placeholder_message":"Deja un mensaje...",
+            "error_name":"El nombre no es valido",
+            "error_email":"El email no es valido",
+            "error_subject":"El asunto no es valido",
+            "error_message":"Por favor ingrese un mensaje",
+            "submit":"Enviar"
+        }
     }
 
 }

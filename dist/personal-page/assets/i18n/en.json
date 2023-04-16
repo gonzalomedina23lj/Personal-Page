@@ -1,32 +1,104 @@
-[
-    {
-        "en_button": "English",
+{
+    
+    "page_title": "Gonzalo Medina | Web Developer",
         
-        "header":{
-            "webtitle": "Gonzalo Medina | Web Developer",
-            "title": "Welcome to my Personal Profile",
-            "subtitle": "This is who I'm"
-
+    "header":{
+        "toolbar":{
+            "home":"Home",
+            "about":"About",
+            "projects":"Projects",
+            "contact":"Contact"
         },
-
-        "biography": "I worked a lot and study more",
-        
-        "projects":[
-            {
-                "id":1,
-                "title":"Movies List",
-                "subtitle":"Angular",
-                "description":"If you want to find all your favourites movies just take a look at my movies page...",
-                "button_1":"PAGE",
-                "button_2":"CODE"
-            } 
-
-
-    ],
-        "footer":{
-            "number": "1153175673"
+        "dinamic_text":{
+            "think":"Think",
+            "work":"Work",
+            "phrase_1":"like an user",
+            "phrase_2":"like a programmer"
         }
 
+    },
+    
+    "about":{
+        "paragraph_1": "Hello!",
+        "paragraph_2": "Mi name is",
+        "paragraph_3": "I am a web developer who enjoys imagining and creating interactive and dynamic websites. I work as a teacher and enjoy getting involved with groups that have a common goal.",
+        "paragraph_4":"My vision as a developer is focused on providing solutions and support organizations with projects in progress and small companies looking forward to build their own responsive website. These are some of the technologies with which I worked in recent years:",
+        "paragraph_5":"I appreciate your visit and I hope you can enjoy here."
+    },
+    
+    "projects":{
+        "title":"PROJECTS",
+
+        "movies_list":{
+            "title":"Movies List",
+            "description":"Take a look at the info and posters of your favourites movies and series.",
+            "button_page":"PAGE",
+            "button_code":"CODE"    
+        },
+
+        "musical_biographies":{
+            "title":"Musical Biographies",
+            "description":"Know more about your favourites bands and explore new music to your ears.",
+            "button_page":"PAGE",
+            "button_code":"CODE"
+        },
+
+        "personal_page":{
+            "title":"Personal Page",
+            "description":"The place where you are. If you like the site you can see how it was built.",
+            "button_page":"PAGE",
+            "button_code":"CODE"
+        },
+
+        "elforc_battle":{
+            "title":"ElfOrc Battle",
+            "description":"A game for the future of Middle Earth. Will Eärwen be able to end the Orc Threat?.",
+            "button_page":"DOWNLOAD",
+            "button_code":"CODE"
+        },
+
+        "san_martin":{
+            "title":"San Martín de los Andes",
+            "description":"One of the most beautiful places of Argentina. Take a trip to San Martín de los Andes through this page.",
+            "button_page":"PAGE",
+            "button_code":"CODE"
+        },
+
+        "qop_arcane":{
+            "title":"Queen Of Pain: Arcane",
+            "description":"Take a look at this great Queen Of Pain skin...'¡Make way for your Queen!'",
+            "button_page":"PAGE",
+            "button_code":"CODE"
+        },
+        
+        "know_space":{
+            "title":"Know Space",
+            "description":"Discover our nearby universe through this website designed with Parallax effect.",
+            "button_page":"PAGE",
+            "button_code":"CODE"
+        },
+
+        "work_progress":"DEVELOPMENT"
+
+
+    },
+    
+    "footer":{
+        "title": "CONTACT ME",
+        "description":"I am interested in freelance opportunities related to web design, video games and data management. However, if you have other request or any question, don’t hesitate to feel use the form.",
+        "form":{
+            "name":"Name",
+            "email":"Email",
+            "subject":"Subject",
+            "message":"Message",
+            "placeholder_message":"Leave a message...",
+            "error_name":"Name is not valid",
+            "error_email":"Name is not valid",
+            "error_subject":"Subject is not valid",
+            "error_message":"Please enter a message",
+            "submit":"Submit"
+        }
+    }
+
 }
-]
 
