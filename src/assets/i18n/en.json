@@ -21,7 +21,7 @@
     "about":{
         "paragraph_1": "Hello!",
         "paragraph_2": "Mi name is",
-        "paragraph_3": "I am a web developer who enjoys imagining and creating interactive and dynamic websites. I work as a teacher and enjoy getting involved with groups that have a common goal.",
+        "paragraph_3": "I am a web developer who enjoys imagining and creating interactive and dynamic websites. I work as a teacher and relishes getting involved with groups that have a common goal.",
         "paragraph_4":"My vision as a developer is focused on providing solutions and support organizations with projects in progress and small companies looking forward to build their own responsive website. These are some of the technologies with which I worked in recent years:",
         "paragraph_5":"I appreciate your visit and I hope you can enjoy here."
     },
@@ -66,7 +66,7 @@
 
         "qop_arcane":{
             "title":"Queen Of Pain: Arcane",
-            "description":"Take a look at this great Queen Of Pain skin...'¡Make way for your Queen!'",
+            "description":"An Arcane set for the Queen Of Pain...'¡Make way for your Queen!'",
             "button_page":"PAGE",
             "button_code":"CODE"
         },
